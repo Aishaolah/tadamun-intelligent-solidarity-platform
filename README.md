@@ -34,7 +34,7 @@ The system is structured into four core workstreams:
 
 | Workstream | Lead | Responsibilities |
 |-------------|------|------------------|
-| 🧠 **AI/ML (The Intelligence Stream)** | *Aisha* (Player-Coach Leader) | Data collection, cleaning, model building (fraud, duplicate, priority), API deployment |
+| 🧠 **AI/ML (The Intelligence Stream)** | *Team Member 1* | Data collection, cleaning, model building (fraud, duplicate, priority), API deployment |
 | 🎨 **Frontend** | *Team Member 2* | React/Next.js UI, dashboards, chatbot interface |
 | ⚙️ **Backend** | *Team Member 3* | Flask/FastAPI server, database (MySQL/Firebase), model integration |
 | 🚀 **DevOps & Reporting** | *Team Member 4* | Deployment (Render/Vercel), GitHub management, LaTeX report & QA |
