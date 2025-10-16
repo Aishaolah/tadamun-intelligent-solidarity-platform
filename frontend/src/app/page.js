@@ -8,8 +8,9 @@ export default function Page() {
     <div>
       <Navbar />
       <Hero />
-      <Company />
-      <Diagram />
+      <Company />   {/* animated partners */}
+      <Diagram />   {/* now clean, no logos */}
     </div>
   );
 }
+

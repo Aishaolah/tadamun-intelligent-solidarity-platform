@@ -8,5 +8,8 @@
     "build": "npm --prefix frontend run build",
     "start": "npm --prefix frontend run start",
     "install:all": "npm --prefix frontend install"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24"
   }
 }
