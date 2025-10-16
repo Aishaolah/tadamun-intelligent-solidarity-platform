@@ -1,11 +1,15 @@
 import Navbar from '@/Components/Navbar';
-import Hero from '@/Components/Hero'
+import Hero from '@/Components/Hero';
+import Company from '@/Components/company';
+import Diagram from '@/Components/Diagram';
 
 export default function Page() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Company />
+      <Diagram />
     </div>
   );
 }
