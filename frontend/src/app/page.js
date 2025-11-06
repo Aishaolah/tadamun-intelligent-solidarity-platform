@@ -4,16 +4,16 @@ import Navbar from '@/Components/Navbar';
 import Hero from '@/Components/Hero';
 import Company from '@/Components/company';
 import Diagram from '@/Components/Diagram';
+import Reviews from '@/Components/Reviews';
+import Donate from '@/Components/Donate';
+import Categories from '@/Components/Categories';
 
 export default function Page() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Company />   {/* animated partners */}
-      <h1>My Leaflet Map</h1>
-      <MapClient />
-      <Diagram />   {/* now clean, no logos */}
+      <Donate />
+      <Categories/>
     </div>
   );
 }

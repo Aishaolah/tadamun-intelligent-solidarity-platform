@@ -76,10 +76,10 @@ export default function Company() {
             <motion.div variants={item}>
               <div
                 className="group relative h-28 w-28 sm:h-32 sm:w-32
-                           rounded-full bg-white/80 ring-1 ring-black/5
-                           flex items-center justify-center overflow-hidden
-                           shadow-md transition-all duration-300 ease-out
-                           hover:-translate-y-2 hover:shadow-2xl hover:ring-black/10"
+                rounded-full bg-white/80 ring-1 ring-black/5
+                flex items-center justify-center overflow-hidden
+                shadow-md transition-all duration-300 ease-out
+                hover:-translate-y-2 hover:shadow-2xl hover:ring-black/10"
               >
                 <Image
                   src={logo.src}
