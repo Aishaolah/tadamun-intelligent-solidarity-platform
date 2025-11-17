@@ -47,13 +47,13 @@ export default function Company() {
   };
 
   return (
-    <section className="bg-[#DFDACA] py-12">
+    <section className="bg-[#000000] py-12">
       <motion.h2
         initial={{ opacity: 0, y: 14 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-80px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="text-center text-3xl md:text-4xl font-semibold mb-10 text-gray-800"
+        className="text-center text-3xl md:text-4xl font-semibold mb-10 text-[#EFEBE3]"
       >
         Our Trusted Partners In Humanitarian Collaboration
       </motion.h2>
@@ -76,7 +76,7 @@ export default function Company() {
             <motion.div variants={item}>
               <div
                 className="group relative h-28 w-28 sm:h-32 sm:w-32
-                rounded-full bg-white/80 ring-1 ring-black/5
+                rounded-full bg-white ring-1 ring-black
                 flex items-center justify-center overflow-hidden
                 shadow-md transition-all duration-300 ease-out
                 hover:-translate-y-2 hover:shadow-2xl hover:ring-black/10"
@@ -90,7 +90,7 @@ export default function Company() {
                   priority
                 />
               </div>
-              <div className="mt-3 text-sm font-semibold text-gray-700">
+              <div className="mt-3 text-sm font-semibold text-[#EFEBE3]">
                 {logo.alt}
               </div>
             </motion.div>

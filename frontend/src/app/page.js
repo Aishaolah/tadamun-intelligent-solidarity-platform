@@ -1,9 +1,9 @@
 import Navbar from "@/Components/Navbar";
-import WhoDonater from "@/Components/WhoDonater";
+import Hero from "@/Components/Hero";
 export default function Page() {
-  <>
+    <>
     <Navbar />
-    <WhoDonater />
-  </>
-}
+    <Hero />
+    </>}
+
 

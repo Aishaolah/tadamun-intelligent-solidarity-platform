@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Home() {
     return (
@@ -10,8 +11,12 @@ function Home() {
                 <span className='text-[#A0E5AD] block'> tadamun</span></h1>
                 <p className='text-[#EFEBE3] text-xl font-bold'>lorem ksgfhvhi  jihrjh j h hjh i h kj hj k k</p>
                 <div className='flex gap-5'>
-                <button className='text-[#1E3231]/75 bg-[#A0E5AD] rounded-lg px-5 py-2 hover:bg-[#78F392] hover:border-transparent hover:shadow-lg-[0_0_20px_rgba(120, 243, 146, 1)] transition duration-300 hover:scale-102'>Want to help </button>
-                <button className='text-[#245943] bg-[#EFEBE3] rounded-lg px-5 py-2 hover:bg-[#D9D9D9] hover:shadow-lg-[0_0_20px_rgba(120, 243, 146, 1)] hover:border-transparent hover:shadow-lg transition duration-300 hover:scale-102'>Needs help</button>
+                <Link href="/category">
+                    <button className='text-[#1E3231]/75 bg-[#A0E5AD] rounded-lg px-5 py-2 hover:bg-[#78F392] hover:border-transparent hover:shadow-lg-[0_0_20px_rgba(120, 243, 146, 1)] transition duration-300 hover:scale-102'>Want to help </button>
+                </Link>
+                <Link href="/signup">
+                    <button className='text-[#245943] bg-[#EFEBE3] rounded-lg px-5 py-2 hover:bg-[#D9D9D9] hover:shadow-lg-[0_0_20px_rgba(120, 243, 146, 1)] hover:border-transparent hover:shadow-lg transition duration-300 hover:scale-102'>Needs help</button>
+                </Link>
                 </div>
             </div>
             <div>
