@@ -1,36 +1,58 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
-/*import { Montserrat } from 'next/font/google'
+export default function Navbar() {
+  const links = [
+    { name: "HOME", href: "/home" },
+    { name: "RAISING MONEY", href: "/volunteer" },
+    { name: "DONATE", href: "/partners" },
+    { name: "ABOUT", href: "/about" },
+    { name: "CONTACT", href: "/contact" },
+  ];
 
-const montserrat = Montserrat({
-    subsets: ['latin'],
-    weight: ['400', '500', '700'],
-    display: 'swap',
-})*/
+  return (
+    <header className="fixed top-0 left-0 w-full h-[70px] flex justify-between items-center px-8 bg-[#EFEBE3]/75 text-[#000000]/80 shadow-md z-50 border-b border-[#1E3231]/30">
+      {/* LEFT SIDE */}
+      <div className="flex items-center gap-16">
+        <Link href="/">
+          <Image
+            src="/logo.svg"
+            alt="Logo"
+            width={80}
+            height={80}
+            className="transition duration-300 hover:scale-105 mt-2"
+          />
+        </Link>
 
+        <ul className="flex gap-8 ml-8">
+          {links.map((link, index) => (
+            <li key={index}>
+              <Link
+                href={link.href}
+                className="font-bold hover:text-[#245943]/75 transition duration-300 hover:scale-105"
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-function Navbar() {
-    return (
-        <div>
-            <div className='flex justify-between items-center mt-0 h-18 max-w mx-auth px-4 text-white border-b-2 border-[#1E3231]/50'>
-                <Image className='mt-8 ml-5 transition duration-300 hover:scale-105' src='/logo.svg' alt='logo' width={100} height={100} />
-                <div>
-                    <ul className='flex gap-8'>
-                        <li className='text-[#000000]/70 hover:text-[#245943]/75 transition duration-300 hover:scale-105 font-bold'>HOME</li>
-                        <li className='text-[#000000]/70 hover:text-[#245943]/75 transition duration-300 hover:scale-105 font-bold'>VOLUNTEER WITH US</li>
-                        <li className='text-[#000000]/70 hover:text-[#245943]/75 transition duration-300 hover:scale-105 font-bold'>OUR PARTNER</li>
-                        <li className='text-[#000000]/70 hover:text-[#245943]/75 transition duration-300 hover:scale-105 font-bold'>ABOUT</li>
-                        <li className='text-[#000000]/70 hover:text-[#245943]/75 transition duration-300 hover:scale-105 font-bold'>CONTACT</li>
-                    </ul>
-                </div>
-                <div  className='flex gap-5'>
-                    <button className='text-[#1E3231] bg-transparent border-1 border-[#1E3231]/50 rounded-lg px-5 py-2 hover:bg-[#A0E5AD] hover:border-transparent hover:shadow-lg-[0_0_20px_rgba(120, 243, 146, 1)] transition duration-500'>Sign up </button>
-                    <button className='text-[#ffffff] bg-[#1E3231] border-1 border-[#1E3231] rounded-lg px-5 py-2 hover:bg-[#245943] hover:shadow-lg-[0_0_20px_rgb(36,89,67)] hover:border-transparent hover:shadow-lg transition duration-500'> log in</button>
-                </div>
-            </div>
-        </div>
-    )
+      {/* RIGHT SIDE */}
+      <div className="flex gap-5">
+        <Link href="/signup">
+          <button className="text-[#1E3231] bg-transparent border border-[#1E3231]/50 rounded-lg px-5 py-2 hover:bg-[#A0E5AD] hover:border-transparent hover:shadow-lg transition duration-500">
+            Sign up
+          </button>
+        </Link>
+
+        <Link href="/login">
+          <button className="text-white bg-[#1E3231] border border-[#1E3231] rounded-lg px-5 py-2 hover:bg-[#245943] hover:shadow-lg transition duration-500">
+            Log in
+          </button>
+        </Link>
+      </div>
+    </header>
+  );
 }
-
-export default Navbar
