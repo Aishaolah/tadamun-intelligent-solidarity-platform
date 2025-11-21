@@ -1,0 +1,2001 @@
+applicant_age,amount_requested,fraud_risk_score,description_length,word_count,submission_month,fraud_indicators_count,urgency_level,fraud_predicted,category
+42,182392,0.0,386,71,10,1,Medium,0,Medical
+62,2425,0.58,229,40,3,0,High,1,Basic Needs
+27,19361,0.01,206,35,7,0,Medium,0,Education
+30,214295,0.0,202,39,5,0,High,0,Housing
+59,102471,0.0,165,33,5,0,Medium,0,Family Support
+29,77341,0.0,198,37,6,0,Medium,0,Education
+52,21131,0.0,185,31,9,2,Medium,0,Education
+60,46583,0.68,114,17,2,0,High,1,Basic Needs
+41,138085,0.0,226,39,2,1,Low,0,Medical
+56,85612,0.61,319,57,5,1,Critical,1,Medical
+41,29730,0.02,114,17,4,0,High,0,Basic Needs
+40,148207,0.0,168,28,4,1,High,0,Family Support
+33,39423,0.55,173,33,10,2,Low,1,Basic Needs
+66,33644,0.06,388,73,5,1,Medium,0,Medical
+59,66965,0.0,242,39,3,1,Medium,0,Medical
+69,38422,0.02,231,39,12,0,Medium,0,Basic Needs
+55,144231,0.0,314,60,3,1,Medium,0,Medical
+27,311341,0.08,202,39,9,0,High,0,Housing
+25,76792,0.01,248,46,2,0,High,0,Education
+64,5050,0.78,227,44,12,0,Medium,1,Family Support
+63,121743,0.01,143,25,12,0,High,0,Housing
+46,24178,0.0,110,19,8,3,Medium,0,Education
+27,202595,0.0,254,46,4,0,High,0,Housing
+51,425195,0.17,143,25,7,0,High,0,Housing
+47,134325,0.0,261,50,4,0,High,0,Housing
+59,33236,0.01,270,50,5,0,Medium,0,Family Support
+61,3443,0.78,111,20,9,0,Low,1,Family Support
+67,69469,0.71,177,31,6,0,Medium,1,Education
+44,15212,0.0,198,35,6,0,Medium,0,Housing
+43,339671,0.0,207,37,6,0,High,0,Housing
+29,14742,0.27,223,43,12,0,Low,0,Basic Needs
+69,38530,0.14,206,36,5,0,Low,0,Basic Needs
+52,119893,0.25,111,20,3,0,Medium,0,Family Support
+42,17367,0.0,210,43,5,1,Medium,0,Basic Needs
+51,54049,0.17,214,41,10,2,Medium,0,Education
+42,218873,0.05,143,25,6,1,High,0,Housing
+52,52639,0.0,243,39,1,0,Low,0,Medical
+55,5413,0.02,139,24,6,0,High,0,Basic Needs
+40,34986,0.03,323,56,10,1,Low,0,Medical
+44,103384,0.0,214,37,7,0,Medium,0,Medical
+27,100142,0.0,165,33,2,0,Medium,0,Family Support
+52,44628,0.66,114,17,5,0,High,1,Basic Needs
+53,313765,0.05,200,33,11,0,High,0,Housing
+60,53084,0.0,155,27,2,0,Medium,0,Family Support
+39,85270,0.0,214,37,12,0,Medium,0,Medical
+39,44359,0.08,226,43,3,0,Low,0,Education
+31,97602,0.0,204,41,4,2,Medium,0,Family Support
+43,94314,0.11,395,73,4,3,Medium,0,Medical
+32,82471,0.02,214,41,11,0,Medium,0,Education
+31,74375,0.0,336,56,12,2,Medium,0,Medical
+39,42963,0.01,168,30,10,1,High,0,Basic Needs
+61,376065,0.0,204,35,6,0,High,0,Housing
+39,78392,0.0,144,24,10,0,Medium,0,Education
+52,14959,0.05,189,33,8,0,Medium,0,Education
+27,23186,0.07,106,21,2,2,High,0,Basic Needs
+28,20876,0.01,171,25,8,0,Medium,0,Basic Needs
+39,123965,0.02,111,20,3,0,Medium,0,Family Support
+60,35308,0.05,260,49,3,1,Medium,0,Basic Needs
+59,51995,0.0,167,31,10,0,Low,0,Basic Needs
+55,26984,0.0,114,17,7,1,High,0,Basic Needs
+58,112473,0.01,385,70,12,0,Medium,0,Medical
+65,130912,0.0,209,40,10,0,High,0,Family Support
+70,186928,0.01,386,69,6,0,High,0,Medical
+30,339906,0.02,311,59,12,0,High,0,Housing
+35,80014,0.0,110,19,6,0,High,0,Education
+61,21348,0.02,171,25,1,0,Medium,0,Basic Needs
+39,16352,0.0,139,24,11,0,Medium,0,Basic Needs
+27,28627,0.22,233,43,5,2,Medium,0,Medical
+46,21449,0.0,110,19,4,0,Medium,0,Education
+32,158238,0.02,218,41,7,0,High,0,Medical
+29,82217,0.0,157,27,11,0,Low,0,Family Support
+48,380158,0.0,264,50,10,0,High,0,Housing
+38,100075,0.03,280,52,2,0,Medium,0,Medical
+38,3399,0.0,169,30,1,0,Medium,0,Basic Needs
+34,16486,0.0,207,37,5,0,Low,0,Housing
+45,19614,0.0,167,27,8,0,Medium,0,Education
+67,18945,0.0,157,27,9,0,Medium,0,Family Support
+64,191686,0.02,184,30,6,0,Medium,0,Medical
+52,111478,0.02,216,43,6,0,High,0,Family Support
+30,55200,0.0,164,26,3,0,Low,0,Basic Needs
+43,39874,0.04,260,49,9,2,Medium,0,Basic Needs
+64,9882,0.06,165,33,11,2,Low,0,Family Support
+29,11036,0.0,178,32,2,0,Medium,0,Family Support
+28,16044,0.24,217,38,12,0,Medium,0,Family Support
+43,66783,0.0,227,41,9,0,High,0,Education
+32,59446,0.0,260,48,3,0,Medium,0,Education
+29,39578,0.0,168,30,7,0,Low,0,Basic Needs
+30,17945,0.01,225,38,8,0,High,0,Basic Needs
+58,95038,0.67,272,49,11,1,Medium,1,Family Support
+62,59805,0.82,114,17,10,0,High,1,Basic Needs
+42,6862,0.06,217,42,6,0,High,0,Basic Needs
+54,13753,0.02,165,33,8,0,High,0,Family Support
+57,95749,0.18,232,45,8,0,Medium,0,Education
+31,40243,0.0,110,19,5,0,Medium,0,Education
+69,95908,0.61,190,34,2,0,Medium,1,Education
+67,7779,0.05,217,41,7,0,High,0,Family Support
+59,72013,0.01,214,41,1,0,Medium,0,Education
+27,247888,0.0,148,26,11,0,High,0,Housing
+61,162729,0.0,206,34,7,0,High,0,Housing
+70,19341,0.33,198,37,5,0,Low,0,Education
+26,211063,0.02,202,39,4,3,High,0,Housing
+55,56537,0.0,211,35,1,0,Medium,0,Housing
+40,84633,0.0,211,36,8,1,Medium,0,Education
+36,289456,0.02,207,37,7,1,High,0,Housing
+47,169693,0.09,218,41,2,3,High,0,Medical
+70,34390,0.16,270,46,5,0,Medium,0,Housing
+66,58740,0.0,167,31,12,0,High,0,Basic Needs
+56,287250,0.0,261,50,5,0,Critical,0,Housing
+63,49077,0.01,144,24,8,0,Medium,0,Education
+65,13163,0.37,164,28,3,2,Critical,0,Medical
+48,315900,0.0,204,35,3,0,High,0,Housing
+41,77862,0.0,163,28,12,0,High,0,Family Support
+70,41058,0.0,144,24,6,0,Medium,0,Education
+56,208415,0.03,254,46,8,0,High,0,Housing
+45,138622,0.04,155,27,6,0,Medium,0,Family Support
+34,190947,0.0,179,30,4,0,Low,0,Medical
+44,68873,0.01,248,46,11,0,Low,0,Education
+66,175689,0.06,280,52,4,0,Critical,0,Medical
+44,97879,0.0,265,48,8,2,Low,0,Housing
+31,38058,0.0,255,45,8,0,Low,0,Education
+45,276234,0.12,209,36,9,2,High,0,Housing
+55,31179,0.0,155,27,8,0,Medium,0,Family Support
+43,415767,0.0,148,26,10,0,High,0,Housing
+34,108221,0.01,218,36,9,0,Low,0,Family Support
+45,402616,0.01,193,34,6,0,High,0,Housing
+69,19401,0.03,230,41,12,0,Medium,0,Basic Needs
+40,47909,0.71,200,34,2,0,Medium,1,Basic Needs
+28,38758,0.0,235,42,6,2,Low,0,Basic Needs
+37,32473,0.0,128,23,6,0,Low,0,Education
+61,54712,0.0,205,34,6,3,High,0,Education
+33,65726,0.17,155,27,5,0,Medium,0,Family Support
+33,46403,0.61,164,28,7,0,Critical,1,Medical
+66,50892,0.01,331,61,8,0,Medium,0,Medical
+44,46914,0.0,128,23,5,0,Medium,0,Education
+35,149880,0.62,207,37,4,0,High,1,Housing
+45,14109,0.27,223,43,3,0,High,0,Basic Needs
+25,64945,0.8,226,43,2,0,Medium,1,Family Support
+48,130352,0.12,182,30,3,0,High,0,Medical
+68,427809,0.0,259,49,2,0,High,0,Housing
+45,33471,0.0,155,27,12,0,High,0,Family Support
+28,54882,0.16,175,27,6,0,High,0,Basic Needs
+29,52181,0.08,164,28,3,0,Medium,0,Medical
+68,10715,0.01,210,43,11,1,High,0,Basic Needs
+49,93743,0.0,162,30,3,3,High,0,Family Support
+68,69155,0.07,284,52,1,0,Critical,0,Medical
+63,87060,0.0,100,19,5,0,Medium,0,Family Support
+65,15290,0.26,111,20,6,0,Medium,0,Family Support
+39,40840,0.0,222,39,8,1,Low,0,Family Support
+37,82026,0.13,194,33,1,0,Medium,0,Education
+32,130546,0.02,218,41,5,0,High,0,Medical
+44,125160,0.01,172,30,2,0,High,0,Family Support
+60,233931,0.07,324,59,5,0,High,0,Housing
+56,13092,0.0,177,26,3,0,High,0,Basic Needs
+25,22817,0.05,324,56,12,3,High,0,Medical
+58,3123,0.02,114,17,9,0,High,0,Basic Needs
+41,56428,0.0,211,35,7,0,Medium,0,Housing
+49,19710,0.0,318,59,11,0,Low,0,Medical
+39,186479,0.03,239,38,10,0,Critical,0,Medical
+62,96416,0.0,248,46,7,0,Medium,0,Education
+30,196329,0.06,318,58,1,0,High,0,Housing
+53,103415,0.63,273,48,8,1,Critical,1,Medical
+34,8982,0.0,139,24,2,0,Medium,0,Basic Needs
+51,148285,0.03,172,30,2,1,Low,0,Family Support
+35,155990,0.01,259,47,6,0,High,0,Housing
+56,255051,0.01,328,62,2,0,High,0,Housing
+45,55652,0.69,167,31,9,0,Medium,1,Family Support
+42,206373,0.01,247,47,2,0,High,0,Housing
+51,86012,0.0,207,33,6,0,Medium,0,Education
+59,97248,0.03,222,41,12,0,Medium,0,Family Support
+66,89926,0.0,270,50,8,0,High,0,Family Support
+68,22758,0.02,205,34,6,0,Medium,0,Education
+38,65411,0.0,128,23,2,3,High,0,Education
+60,257249,0.02,202,39,4,0,High,0,Housing
+70,39837,0.46,229,40,2,2,High,0,Basic Needs
+47,42459,0.05,168,30,3,0,High,0,Basic Needs
+48,57819,0.01,265,49,11,0,Low,0,Education
+36,42593,0.73,106,21,1,2,Medium,1,Basic Needs
+30,21142,0.01,221,44,1,0,Medium,0,Basic Needs
+42,101170,0.03,262,46,10,0,High,0,Medical
+53,245199,0.21,269,48,3,0,Critical,0,Housing
+61,327925,0.02,323,61,10,0,High,0,Housing
+28,81525,0.01,323,61,12,0,Low,0,Housing
+49,55802,0.0,171,29,9,0,High,0,Education
+69,54145,0.69,173,33,9,0,Medium,1,Basic Needs
+46,39087,0.0,143,25,2,2,Medium,0,Housing
+35,158665,0.02,254,46,2,0,High,0,Housing
+30,264984,0.05,257,46,2,1,High,0,Housing
+31,40947,0.01,276,48,7,3,Critical,0,Medical
+68,60449,0.01,207,37,2,0,Low,0,Housing
+40,97526,0.0,128,23,11,0,Medium,0,Education
+28,17685,0.01,173,33,9,1,High,0,Basic Needs
+59,22134,0.08,226,43,1,0,High,0,Family Support
+52,143943,0.01,270,50,11,0,Medium,0,Family Support
+66,84309,0.0,100,19,12,2,High,0,Family Support
+70,100895,0.05,264,50,9,0,High,0,Housing
+46,21743,0.1,164,28,5,0,Medium,0,Medical
+41,368433,0.18,261,50,2,0,High,0,Housing
+70,132710,0.7,323,61,6,0,High,1,Housing
+58,23068,0.08,239,44,8,2,Critical,0,Medical
+48,54228,0.0,276,52,10,0,High,0,Family Support
+67,98317,0.0,207,33,6,0,High,0,Education
+69,407114,0.0,206,34,2,0,Critical,0,Housing
+50,45762,0.0,185,31,6,1,Medium,0,Education
+59,30215,0.07,239,44,8,0,Medium,0,Education
+30,222746,0.01,261,50,9,0,High,0,Housing
+31,78676,0.0,207,37,1,2,Low,0,Housing
+26,36761,0.0,221,44,2,0,Medium,0,Family Support
+36,20021,0.63,160,34,5,0,Medium,1,Basic Needs
+30,55286,0.01,161,29,11,0,Medium,0,Family Support
+57,3708,0.06,229,40,6,0,Low,0,Basic Needs
+67,415582,0.11,143,25,4,0,High,0,Housing
+70,76873,0.03,110,19,3,0,High,0,Education
+39,5179,0.2,281,50,6,2,Medium,0,Medical
+58,210869,0.01,254,46,12,0,High,0,Housing
+36,47453,0.0,156,30,11,0,High,0,Basic Needs
+50,153762,0.08,261,47,1,0,Low,0,Medical
+29,103021,0.05,207,37,11,1,High,0,Housing
+25,24802,0.03,182,36,7,0,Medium,0,Education
+29,169617,0.01,259,47,1,1,High,0,Housing
+55,82602,0.01,259,47,8,2,Medium,0,Education
+28,80214,0.1,165,33,12,2,Medium,0,Family Support
+67,27396,0.0,160,34,4,0,High,0,Basic Needs
+34,15675,0.01,160,28,2,0,Medium,0,Education
+68,64772,0.0,216,43,8,0,Low,0,Family Support
+53,102642,0.62,328,62,4,0,High,1,Housing
+29,147717,0.0,157,27,6,0,Medium,0,Family Support
+62,67535,0.01,143,25,2,0,Medium,0,Housing
+55,11427,0.0,114,17,11,0,High,0,Basic Needs
+26,21861,0.07,106,21,6,0,High,0,Basic Needs
+42,14316,0.0,139,24,8,0,High,0,Basic Needs
+70,313148,0.66,270,46,1,0,High,1,Housing
+65,17855,0.02,169,30,7,0,Medium,0,Basic Needs
+30,24352,0.0,144,24,10,0,Medium,0,Education
+66,7218,0.25,178,30,4,0,Medium,0,Medical
+38,111044,0.0,185,31,11,0,Medium,0,Education
+55,86964,0.11,190,34,6,0,High,0,Education
+45,133383,0.0,100,19,5,0,Medium,0,Family Support
+39,105878,0.0,171,29,8,0,High,0,Education
+36,88778,0.01,206,35,2,0,Medium,0,Education
+65,167700,0.08,180,30,2,0,Critical,0,Medical
+46,254899,0.0,202,39,3,1,High,0,Housing
+35,423814,0.06,207,37,2,0,Critical,0,Housing
+58,85141,0.06,198,37,5,2,High,0,Education
+46,38072,0.04,217,41,6,1,High,0,Family Support
+35,103354,0.03,179,30,11,0,Medium,0,Medical
+51,71253,0.0,226,39,8,1,High,0,Medical
+57,163219,0.0,311,59,2,0,High,0,Housing
+60,93204,0.0,185,31,9,0,High,0,Education
+31,122734,0.0,157,27,5,0,Medium,0,Family Support
+31,5007,0.01,193,37,1,0,Low,0,Basic Needs
+36,76259,0.06,164,28,7,0,High,0,Medical
+51,154145,0.11,246,42,12,0,Medium,0,Medical
+32,48206,0.59,205,36,5,0,Medium,1,Housing
+69,59734,0.04,171,29,12,0,Low,0,Education
+57,134980,0.09,317,60,3,0,High,0,Medical
+30,31366,0.01,163,29,2,0,High,0,Basic Needs
+63,136257,0.03,155,27,10,0,Medium,0,Family Support
+64,89136,0.0,167,27,7,0,High,0,Education
+31,132085,0.04,111,20,3,0,Low,0,Family Support
+70,39379,0.03,210,37,11,0,Low,0,Housing
+62,51452,0.01,281,50,12,0,Medium,0,Medical
+40,21278,0.48,189,33,8,0,Low,0,Basic Needs
+37,79173,0.01,154,32,12,0,Medium,0,Family Support
+47,77794,0.03,172,30,12,0,High,0,Education
+67,20783,0.0,163,29,12,0,Medium,0,Basic Needs
+60,106944,0.03,164,28,5,0,High,0,Medical
+25,116881,0.31,144,24,8,0,Medium,0,Education
+36,400393,0.1,328,62,9,0,High,0,Housing
+45,362021,0.0,148,26,6,3,High,0,Housing
+47,90001,0.59,150,28,6,0,High,1,Family Support
+66,34958,0.05,164,32,1,0,Medium,0,Education
+48,121800,0.03,380,71,9,0,Low,0,Medical
+65,114203,0.02,217,38,2,0,High,0,Family Support
+70,43452,0.0,198,35,4,0,Medium,0,Housing
+68,87072,0.0,144,24,11,0,Medium,0,Education
+43,52992,0.01,173,28,7,2,Low,0,Education
+60,78067,0.05,239,44,11,0,Medium,0,Education
+36,69254,0.01,205,36,4,0,Medium,0,Family Support
+67,130714,0.0,216,43,6,0,Medium,0,Family Support
+44,77128,0.0,128,23,10,1,Medium,0,Education
+46,248495,0.03,259,47,7,0,High,0,Housing
+29,114357,0.19,160,28,9,0,Medium,0,Education
+34,79283,0.03,211,40,3,0,Medium,0,Family Support
+57,41325,0.02,221,44,9,0,Medium,0,Family Support
+54,16529,0.01,164,32,12,0,Medium,0,Education
+66,26663,0.16,175,27,4,0,High,0,Basic Needs
+57,112992,0.0,148,26,3,0,High,0,Housing
+62,28928,0.67,189,33,1,1,Low,1,Basic Needs
+61,25478,0.0,100,19,4,0,High,0,Family Support
+64,46967,0.0,100,19,12,1,Medium,0,Family Support
+34,13233,0.73,165,33,9,0,High,1,Family Support
+48,30112,0.0,160,34,4,0,Medium,0,Basic Needs
+41,26972,0.07,164,28,5,1,High,0,Medical
+69,8985,0.01,160,34,3,0,High,0,Basic Needs
+51,33619,0.0,227,46,4,0,Medium,0,Basic Needs
+53,47413,0.01,330,58,2,0,High,0,Medical
+55,73967,0.1,241,38,4,0,Critical,0,Medical
+36,5807,0.36,111,20,4,1,High,0,Family Support
+35,423773,0.0,148,26,7,0,High,0,Housing
+47,53993,0.0,215,42,8,0,Medium,0,Family Support
+59,70573,0.0,181,30,12,0,High,0,Medical
+55,43527,0.14,114,17,4,0,Medium,0,Basic Needs
+30,110619,0.0,207,33,6,0,Low,0,Education
+37,154148,0.18,270,46,4,0,High,0,Housing
+59,26326,0.0,156,30,11,0,High,0,Basic Needs
+33,236866,0.0,258,48,9,0,High,0,Housing
+38,90311,0.03,218,41,7,0,Critical,0,Medical
+38,210197,0.0,211,35,7,0,High,0,Housing
+37,42203,0.0,276,52,8,0,Medium,0,Family Support
+60,28109,0.0,177,26,2,0,High,0,Basic Needs
+60,56970,0.0,128,23,3,1,Medium,0,Education
+64,11492,0.11,168,30,3,0,High,0,Basic Needs
+45,387471,0.0,197,38,5,0,High,0,Housing
+26,45386,0.23,168,30,5,1,High,0,Basic Needs
+30,7525,0.01,169,30,12,0,High,0,Basic Needs
+45,146710,0.0,226,39,5,0,Medium,0,Medical
+65,33565,0.03,139,24,10,0,High,0,Basic Needs
+55,411085,0.02,215,38,9,0,High,0,Housing
+35,27540,0.02,206,36,7,0,Medium,0,Basic Needs
+59,114867,0.0,201,32,2,0,High,0,Education
+36,192484,0.09,275,49,8,0,Medium,0,Medical
+27,10345,0.02,249,48,5,0,Medium,0,Education
+53,32569,0.11,202,39,4,0,Medium,0,Housing
+27,71278,0.0,243,46,3,0,Medium,0,Education
+42,4170,0.03,110,19,1,0,Medium,0,Education
+46,20669,0.0,214,37,7,2,Critical,0,Medical
+33,33804,0.0,156,30,12,2,Low,0,Basic Needs
+29,72035,0.0,162,30,10,0,Medium,0,Family Support
+29,104578,0.03,111,20,4,2,Medium,0,Family Support
+36,132236,0.01,337,61,4,0,Critical,0,Medical
+70,88950,0.0,260,48,9,0,Medium,0,Education
+27,23430,0.04,227,44,4,0,Medium,0,Family Support
+60,416753,0.13,210,37,11,0,High,0,Housing
+53,303401,0.0,210,37,6,0,High,0,Housing
+53,40287,0.01,259,47,11,0,Medium,0,Education
+60,23278,0.01,261,46,2,0,Low,0,Education
+61,194682,0.01,245,41,6,0,Critical,0,Medical
+28,112188,0.07,155,27,3,0,High,0,Family Support
+59,60880,0.05,155,27,3,0,High,0,Family Support
+34,39449,0.01,225,38,1,0,Medium,0,Basic Needs
+66,400701,0.01,268,47,9,0,High,0,Housing
+47,103883,0.0,144,24,6,0,Medium,0,Education
+34,59991,0.0,193,34,2,1,Medium,0,Housing
+38,15356,0.0,114,17,10,0,Medium,0,Basic Needs
+58,20613,0.07,168,30,4,0,High,0,Basic Needs
+43,53662,0.01,244,47,4,0,Medium,0,Education
+26,21983,0.04,223,43,6,0,Low,0,Basic Needs
+65,10724,0.0,161,29,10,0,Low,0,Family Support
+39,114795,0.02,215,42,6,0,High,0,Family Support
+70,240477,0.03,143,25,3,0,High,0,Housing
+45,230614,0.0,148,26,6,0,Critical,0,Housing
+64,165527,0.02,280,52,4,1,High,0,Medical
+56,32658,0.03,182,36,1,0,Low,0,Education
+53,375638,0.0,148,26,6,0,High,0,Housing
+58,13095,0.0,212,35,9,0,High,0,Family Support
+65,28085,0.0,227,46,6,0,Medium,0,Basic Needs
+57,47620,0.04,200,34,10,1,High,0,Basic Needs
+32,347436,0.0,274,49,7,0,Critical,0,Housing
+67,108777,0.03,268,47,12,0,High,0,Housing
+41,276432,0.0,207,37,10,0,High,0,Housing
+42,59430,0.05,382,71,1,2,High,0,Medical
+43,381921,0.0,197,38,10,0,High,0,Housing
+52,41382,0.01,259,47,8,0,Medium,0,Education
+58,78284,0.05,165,33,8,0,Medium,0,Family Support
+65,13790,0.0,139,24,11,3,Low,0,Basic Needs
+47,15915,0.06,229,40,1,3,High,0,Basic Needs
+36,128595,0.25,155,27,8,0,Medium,0,Family Support
+58,46446,0.01,177,26,6,0,High,0,Basic Needs
+46,102015,0.0,247,47,10,0,High,0,Housing
+56,111718,0.0,261,46,6,0,High,0,Education
+37,50001,0.0,160,34,9,0,Medium,0,Basic Needs
+27,75731,0.0,148,26,1,0,Low,0,Housing
+44,84826,0.03,272,49,11,0,High,0,Family Support
+25,68674,0.0,258,48,4,0,Low,0,Housing
+59,64700,0.0,255,45,12,0,Medium,0,Education
+44,48720,0.66,181,29,12,3,Medium,1,Basic Needs
+39,42431,0.0,168,32,5,0,Medium,0,Basic Needs
+47,49774,0.04,233,43,5,1,Critical,0,Medical
+50,34941,0.0,198,37,10,0,Medium,0,Education
+59,50455,0.02,168,30,12,0,Medium,0,Basic Needs
+63,81172,0.25,244,47,7,0,Medium,0,Education
+53,318002,0.04,322,60,8,0,High,0,Housing
+25,55978,0.01,178,32,3,2,Medium,0,Education
+70,37724,0.02,231,39,4,0,High,0,Basic Needs
+29,359943,0.14,269,48,8,0,High,0,Housing
+60,25285,0.02,196,32,4,0,Medium,0,Basic Needs
+27,99620,0.01,227,44,2,0,Medium,0,Family Support
+30,14592,0.0,128,23,5,0,Medium,0,Education
+59,137391,0.1,111,20,8,0,High,0,Family Support
+61,47323,0.0,209,40,10,0,High,0,Family Support
+33,8723,0.03,214,37,2,0,Medium,0,Medical
+58,91058,0.0,207,37,10,0,Medium,0,Housing
+47,411091,0.0,274,49,2,0,High,0,Housing
+34,2777,0.0,167,31,5,0,Medium,0,Basic Needs
+42,18734,0.01,176,28,12,0,High,0,Basic Needs
+25,21271,0.08,269,48,7,0,Low,0,Housing
+67,172269,0.07,218,41,3,0,High,0,Medical
+36,349904,0.0,148,26,8,0,High,0,Housing
+46,51643,0.0,341,57,8,1,Critical,0,Medical
+41,154774,0.05,302,55,5,0,Critical,0,Medical
+25,104055,0.06,190,34,9,1,Medium,0,Education
+44,50887,0.06,195,35,9,0,Low,0,Education
+31,66766,0.0,227,41,2,1,Medium,0,Education
+26,53627,0.0,168,32,1,0,High,0,Basic Needs
+27,126527,0.07,271,51,11,2,High,0,Family Support
+32,60821,0.15,217,38,2,0,High,0,Family Support
+62,158599,0.65,209,36,3,0,High,1,Housing
+35,24160,0.0,212,35,1,0,Medium,0,Family Support
+38,36281,0.0,169,30,8,2,Medium,0,Basic Needs
+60,15541,0.0,128,23,11,0,Medium,0,Education
+34,129364,0.23,381,68,9,0,High,0,Medical
+28,33788,0.66,202,33,9,0,Medium,1,Basic Needs
+32,99698,0.0,261,46,7,0,Medium,0,Education
+33,346361,0.0,265,48,7,0,High,0,Housing
+63,86623,0.05,194,33,11,2,High,0,Education
+40,40782,0.69,114,17,3,3,High,1,Basic Needs
+40,8256,0.01,281,50,12,0,High,0,Medical
+54,79501,0.07,191,32,1,0,Medium,0,Education
+46,75723,0.25,227,37,12,3,Critical,0,Medical
+64,44478,0.66,176,28,10,1,Low,1,Basic Needs
+39,135006,0.0,211,40,12,0,Medium,0,Family Support
+43,20203,0.27,167,31,4,0,High,0,Family Support
+38,26896,0.0,148,26,5,2,Low,0,Housing
+66,176903,0.01,240,41,11,0,Critical,0,Medical
+39,103892,0.0,211,36,1,0,High,0,Education
+32,316216,0.01,265,48,3,0,High,0,Housing
+32,417924,0.12,202,39,3,0,High,0,Housing
+67,98491,0.0,128,23,8,0,Medium,0,Education
+30,320886,0.0,207,37,9,2,High,0,Housing
+63,45697,0.03,227,46,7,0,Low,0,Basic Needs
+53,118999,0.04,155,27,5,0,Medium,0,Family Support
+44,142704,0.0,274,48,6,0,Critical,0,Medical
+70,86789,0.0,261,50,4,0,Medium,0,Housing
+54,12094,0.0,106,21,5,0,Medium,0,Basic Needs
+40,34312,0.05,114,17,2,0,Medium,0,Basic Needs
+61,47689,0.8,324,58,10,2,Low,1,Medical
+58,139707,0.01,221,36,4,2,High,0,Medical
+62,4690,0.1,177,31,3,0,Medium,0,Education
+69,293971,0.12,143,25,12,0,Critical,0,Housing
+48,119618,0.01,164,32,11,0,Medium,0,Education
+44,237720,0.0,274,49,12,3,Critical,0,Housing
+31,29922,0.0,259,47,10,2,Low,0,Education
+61,6665,0.0,155,27,9,1,High,0,Family Support
+48,118255,0.08,216,37,12,0,Medium,0,Family Support
+32,95370,0.25,164,32,5,0,Medium,0,Education
+51,30046,0.16,139,24,4,1,High,0,Basic Needs
+68,28255,0.0,114,17,12,0,High,0,Basic Needs
+32,395213,0.0,148,26,9,0,High,0,Housing
+57,31321,0.0,163,28,3,1,High,0,Family Support
+68,341753,0.06,207,37,2,0,High,0,Housing
+59,11283,0.07,216,37,8,0,Medium,0,Family Support
+56,66891,0.03,110,19,2,0,Low,0,Education
+62,25118,0.02,210,43,5,0,High,0,Basic Needs
+52,56992,0.45,198,37,6,0,Medium,0,Education
+59,77455,0.11,190,34,9,3,Medium,0,Education
+57,193016,0.0,264,50,3,0,High,0,Housing
+28,225778,0.01,197,38,4,0,High,0,Housing
+47,35072,0.01,160,34,6,0,Medium,0,Basic Needs
+65,51900,0.0,162,30,10,0,Low,0,Family Support
+65,25873,0.0,201,35,8,0,Medium,0,Basic Needs
+51,174356,0.6,236,43,3,1,High,1,Medical
+66,38764,0.02,154,32,1,0,Medium,0,Family Support
+45,111694,0.46,218,41,7,0,Critical,0,Medical
+67,140693,0.01,154,32,5,2,Medium,0,Family Support
+34,245411,0.01,202,39,7,0,High,0,Housing
+48,445632,0.0,207,37,6,1,High,0,Housing
+69,46908,0.05,114,17,3,0,Low,0,Basic Needs
+40,60520,0.0,128,23,11,0,Low,0,Education
+46,56027,0.0,225,38,3,0,Medium,0,Basic Needs
+66,173060,0.64,387,71,3,0,Medium,1,Medical
+51,251710,0.0,206,34,9,0,Critical,0,Housing
+26,44408,0.03,171,25,11,1,Medium,0,Basic Needs
+48,18381,0.05,177,31,1,0,Low,0,Education
+56,81654,0.03,182,36,4,1,Medium,0,Education
+68,20410,0.01,207,37,8,0,Medium,0,Housing
+31,64562,0.0,100,19,8,0,High,0,Family Support
+49,90983,0.0,144,24,7,0,Low,0,Education
+70,76258,0.01,207,37,6,0,Medium,0,Housing
+41,44358,0.01,206,35,9,0,Medium,0,Education
+70,4673,0.01,106,21,8,0,High,0,Basic Needs
+43,101295,0.13,190,34,9,0,Medium,0,Education
+56,11805,0.7,218,41,5,0,Critical,1,Medical
+70,169719,0.05,218,41,5,2,Low,0,Medical
+28,87717,0.02,215,42,1,0,Low,0,Family Support
+35,79694,0.1,225,38,11,0,High,0,Medical
+31,271703,0.01,198,35,8,2,Critical,0,Housing
+39,23325,0.05,110,19,9,0,Medium,0,Education
+44,169917,0.13,264,45,10,0,High,0,Housing
+62,5132,0.1,164,32,2,1,Medium,0,Education
+67,72487,0.0,212,35,6,0,Medium,0,Family Support
+25,125628,0.0,180,30,12,0,Low,0,Medical
+69,14486,0.0,201,32,3,1,Medium,0,Education
+37,11710,0.0,169,30,8,0,High,0,Basic Needs
+37,56646,0.59,196,32,7,0,Medium,1,Basic Needs
+43,130428,0.05,111,20,9,0,High,0,Family Support
+45,129082,0.01,180,30,2,0,Medium,0,Medical
+39,41459,0.0,167,31,12,0,Medium,0,Basic Needs
+64,90432,0.0,207,33,9,2,High,0,Education
+35,68991,0.0,201,32,1,2,Medium,0,Education
+63,244547,0.2,207,37,8,0,High,0,Housing
+38,386281,0.0,254,46,8,0,High,0,Housing
+46,27343,0.66,184,31,5,0,High,1,Medical
+51,285614,0.0,148,26,12,0,High,0,Housing
+52,45265,0.04,193,37,11,0,Medium,0,Basic Needs
+68,42888,0.65,189,33,6,0,Medium,1,Education
+66,109038,0.03,204,41,4,0,Low,0,Family Support
+57,102227,0.08,194,33,11,0,High,0,Education
+65,175645,0.1,298,54,3,0,High,0,Medical
+47,39692,0.62,217,41,12,0,Medium,1,Family Support
+51,83190,0.02,268,47,8,0,Medium,0,Housing
+52,131330,0.0,218,36,8,0,Medium,0,Family Support
+27,208636,0.04,197,38,3,0,High,0,Housing
+56,21630,0.05,189,33,10,0,Medium,0,Education
+51,77155,0.0,128,23,8,0,Medium,0,Education
+34,7853,0.51,168,30,11,0,Medium,1,Basic Needs
+66,48347,0.03,114,17,1,0,High,0,Basic Needs
+28,127737,0.02,259,49,9,1,Medium,0,Family Support
+45,133836,0.66,300,55,1,0,Low,1,Medical
+34,43429,0.6,154,32,6,0,High,1,Family Support
+51,18599,0.06,276,49,4,0,Critical,0,Medical
+60,111822,0.02,328,61,11,0,Medium,0,Medical
+51,121670,0.0,211,35,3,0,High,0,Housing
+43,5142,0.06,246,40,1,0,High,0,Medical
+35,21333,0.0,212,35,6,0,High,0,Family Support
+46,74568,0.23,165,33,5,1,Low,0,Family Support
+25,131182,0.03,173,31,7,0,Medium,0,Family Support
+63,37706,0.0,184,30,8,0,Low,0,Medical
+64,33704,0.02,195,35,9,0,Low,0,Education
+61,38161,0.71,114,17,4,0,Medium,1,Basic Needs
+39,425125,0.27,261,50,5,0,High,0,Housing
+68,118389,0.03,227,39,7,0,Critical,0,Medical
+53,46870,0.01,110,19,2,0,Low,0,Education
+44,65712,0.12,205,34,1,0,Low,0,Housing
+46,53226,0.04,200,33,11,0,Low,0,Housing
+33,60923,0.0,128,23,1,1,Medium,0,Education
+67,32422,0.01,168,30,8,0,High,0,Basic Needs
+25,325843,0.0,247,47,4,0,High,0,Housing
+62,175840,0.01,234,39,7,2,High,0,Medical
+57,43629,0.0,211,35,8,0,Medium,0,Housing
+46,23997,0.05,223,43,11,0,Low,0,Basic Needs
+54,400134,0.01,264,50,6,0,Critical,0,Housing
+65,50174,0.0,259,47,1,0,High,0,Education
+31,40977,0.02,218,41,7,0,Medium,0,Medical
+52,77124,0.02,261,50,3,0,Medium,0,Housing
+64,169236,0.0,210,37,3,0,High,0,Housing
+55,49012,0.17,205,36,3,0,Medium,0,Housing
+70,108105,0.0,165,33,11,0,High,0,Family Support
+35,7554,0.0,243,46,3,0,Medium,0,Basic Needs
+48,19892,0.0,256,46,7,2,High,0,Basic Needs
+32,29254,0.61,198,37,6,0,Medium,1,Education
+70,71455,0.05,161,29,1,0,Medium,0,Family Support
+34,49404,0.0,156,30,4,0,Medium,0,Basic Needs
+69,114797,0.06,194,33,10,0,Medium,0,Education
+68,172096,0.13,200,33,6,2,High,0,Housing
+38,52371,0.0,222,39,8,0,High,0,Family Support
+36,77401,0.07,259,49,4,1,Medium,0,Family Support
+59,51051,0.21,324,59,7,0,Medium,0,Housing
+57,39102,0.04,144,24,4,0,Medium,0,Education
+54,78474,0.0,162,30,11,0,Medium,0,Family Support
+52,381226,0.04,318,58,10,0,High,0,Housing
+60,55125,0.02,197,38,2,0,Medium,0,Housing
+68,95087,0.05,371,67,7,0,High,0,Medical
+60,11191,0.08,160,34,8,2,High,0,Basic Needs
+34,192278,0.26,231,40,1,0,Medium,0,Medical
+44,17757,0.0,326,61,7,0,Low,0,Medical
+67,107454,0.0,198,37,12,0,Medium,0,Education
+32,87768,0.0,270,50,3,0,High,0,Family Support
+29,133960,0.02,215,42,2,0,Medium,0,Family Support
+65,181706,0.05,205,34,12,0,High,0,Housing
+39,35520,0.07,155,27,6,0,High,0,Family Support
+66,247640,0.42,269,48,6,2,High,0,Housing
+59,90163,0.03,164,32,5,0,High,0,Education
+28,15383,0.51,189,33,3,0,Medium,1,Basic Needs
+37,35632,0.03,244,47,6,0,Medium,0,Education
+53,50164,0.0,139,24,8,1,High,0,Basic Needs
+36,121909,0.01,221,44,5,1,Low,0,Family Support
+51,51908,0.03,232,45,7,0,High,0,Education
+47,43614,0.11,106,21,12,0,High,0,Basic Needs
+68,87585,0.0,128,23,3,1,Medium,0,Education
+62,14374,0.06,193,37,8,0,High,0,Basic Needs
+30,104802,0.0,207,33,6,0,High,0,Education
+51,197162,0.0,345,58,8,1,Critical,0,Medical
+36,150975,0.0,148,26,7,0,High,0,Housing
+26,91185,0.01,201,32,2,0,Medium,0,Education
+56,115578,0.11,154,32,6,0,Medium,0,Family Support
+46,108331,0.0,155,27,3,0,Medium,0,Family Support
+55,3820,0.0,161,29,11,0,High,0,Family Support
+64,33203,0.06,114,17,12,0,Medium,0,Basic Needs
+27,25830,0.16,111,20,6,0,Medium,0,Family Support
+38,26444,0.6,154,32,2,0,High,1,Family Support
+67,73063,0.0,226,43,11,0,Medium,0,Education
+60,16650,0.03,250,45,5,0,High,0,Basic Needs
+49,43737,0.06,177,31,2,0,Medium,0,Education
+62,144110,0.01,161,29,8,0,High,0,Family Support
+44,37365,0.0,226,39,5,0,Low,0,Medical
+38,109223,0.08,110,19,4,0,Medium,0,Education
+50,197613,0.01,264,50,7,0,High,0,Housing
+62,387028,0.0,148,26,6,0,High,0,Housing
+25,316823,0.6,143,25,2,0,Critical,1,Housing
+28,88209,0.01,173,28,6,0,Medium,0,Education
+49,431979,0.72,210,37,12,0,Critical,1,Housing
+66,63965,0.01,214,37,1,0,High,0,Medical
+33,14116,0.01,164,26,7,0,Medium,0,Basic Needs
+32,33756,0.13,165,33,4,0,Medium,0,Family Support
+41,59360,0.04,247,47,3,0,Low,0,Housing
+59,85034,0.0,100,19,9,0,High,0,Family Support
+33,325264,0.01,198,35,7,0,High,0,Housing
+69,12248,0.41,172,30,11,1,Medium,0,Education
+63,36830,0.73,225,38,2,2,High,1,Basic Needs
+32,175720,0.12,209,36,10,0,High,0,Housing
+49,304234,0.0,265,48,10,0,High,0,Housing
+65,35651,0.03,231,44,12,0,Medium,0,Education
+39,7697,0.1,106,21,6,0,High,0,Basic Needs
+43,5803,0.38,227,44,8,0,Medium,0,Family Support
+64,6911,0.0,182,30,12,0,Medium,0,Medical
+27,140236,0.02,218,36,4,0,Medium,0,Family Support
+40,35897,0.04,297,53,5,0,Critical,0,Medical
+64,96256,0.15,226,43,1,1,High,0,Family Support
+58,28916,0.1,222,45,3,0,Low,0,Basic Needs
+53,45423,0.25,154,32,3,0,High,0,Family Support
+46,266288,0.04,215,38,12,0,High,0,Housing
+49,8544,0.0,212,35,3,0,Low,0,Family Support
+43,117447,0.03,268,50,5,0,Medium,0,Medical
+70,47950,0.0,164,26,9,2,Low,0,Basic Needs
+37,26926,0.02,176,28,7,0,Medium,0,Basic Needs
+42,191537,0.0,388,71,8,2,Low,0,Medical
+41,34236,0.0,214,37,2,2,High,0,Medical
+49,20102,0.04,164,32,11,0,Medium,0,Education
+59,51872,0.02,168,30,4,2,Low,0,Basic Needs
+32,36325,0.24,200,34,9,1,High,0,Basic Needs
+59,6914,0.06,160,34,3,0,High,0,Basic Needs
+62,253782,0.05,197,38,9,0,High,0,Housing
+27,37857,0.0,209,40,5,1,Low,0,Family Support
+60,56522,0.0,185,31,11,3,Medium,0,Education
+69,70461,0.01,165,33,11,0,Medium,0,Family Support
+39,26159,0.0,169,30,3,0,Low,0,Basic Needs
+26,443605,0.11,197,38,7,3,Critical,0,Housing
+26,173947,0.01,374,67,1,0,Critical,0,Medical
+46,58037,0.16,181,30,3,0,Critical,0,Medical
+65,29952,0.0,221,44,10,0,High,0,Family Support
+49,110844,0.01,239,44,2,0,Medium,0,Education
+34,162184,0.0,226,39,4,0,Critical,0,Medical
+41,54342,0.0,139,24,2,0,Medium,0,Basic Needs
+61,20250,0.0,256,46,3,0,Medium,0,Basic Needs
+46,44857,0.06,173,33,5,0,High,0,Basic Needs
+69,48077,0.05,202,33,2,1,High,0,Basic Needs
+34,235765,0.01,261,50,5,1,High,0,Housing
+67,46464,0.0,387,70,1,2,Critical,0,Medical
+55,119385,0.0,222,41,11,0,Medium,0,Family Support
+68,191491,0.05,280,52,5,0,High,0,Medical
+50,111308,0.0,143,25,10,0,High,0,Housing
+66,69735,0.0,148,26,2,3,Medium,0,Housing
+37,34501,0.0,144,24,5,0,Medium,0,Education
+43,44218,0.0,173,28,7,3,Medium,0,Education
+62,79053,0.02,209,40,3,0,High,0,Family Support
+35,397059,0.0,204,35,11,2,High,0,Housing
+34,133422,0.65,216,37,2,0,High,1,Family Support
+35,49316,0.01,265,49,2,0,Medium,0,Education
+56,225207,0.71,197,38,7,0,High,1,Housing
+68,17957,0.02,165,33,5,0,Medium,0,Family Support
+54,127811,0.12,164,28,11,2,Critical,0,Medical
+56,65419,0.01,232,45,2,0,Medium,0,Education
+52,58886,0.12,175,27,1,2,Medium,0,Basic Needs
+67,8058,0.0,160,34,8,2,High,0,Basic Needs
+61,38759,0.0,201,35,11,2,Low,0,Basic Needs
+68,31527,0.05,218,39,3,0,Medium,0,Basic Needs
+38,371320,0.01,322,60,10,0,High,0,Housing
+47,29908,0.0,169,30,9,0,Medium,0,Basic Needs
+68,95024,0.0,144,24,11,3,Medium,0,Education
+27,15885,0.07,217,42,4,0,Low,0,Basic Needs
+50,53262,0.06,230,41,4,0,High,0,Basic Needs
+26,57100,0.01,229,40,9,0,High,0,Basic Needs
+28,115486,0.24,227,44,3,0,High,0,Family Support
+65,414597,0.01,202,39,11,1,Critical,0,Housing
+49,37222,0.08,165,33,8,0,Medium,0,Family Support
+49,159160,0.12,207,37,2,0,High,0,Housing
+41,99738,0.0,240,38,4,0,High,0,Medical
+35,89463,0.0,164,32,10,0,Medium,0,Education
+41,295994,0.11,260,47,1,1,High,0,Housing
+37,88449,0.0,128,23,5,0,Medium,0,Education
+62,43840,0.01,144,24,3,0,Low,0,Education
+49,101031,0.0,212,35,11,0,Low,0,Family Support
+26,115561,0.0,163,28,4,0,Medium,0,Family Support
+38,89295,0.61,225,38,4,0,High,1,Medical
+51,88304,0.76,332,59,6,0,Critical,1,Medical
+40,87366,0.01,198,37,10,0,High,0,Education
+31,194596,0.08,244,41,6,0,High,0,Medical
+32,8733,0.0,250,45,1,0,High,0,Basic Needs
+48,6295,0.04,377,67,12,0,High,0,Medical
+35,9857,0.15,106,21,3,0,Medium,0,Basic Needs
+40,133477,0.12,180,30,5,3,Critical,0,Medical
+29,366534,0.0,202,39,4,3,High,0,Housing
+57,16338,0.03,106,21,7,0,High,0,Basic Needs
+61,71189,0.19,328,62,2,2,Medium,0,Housing
+34,69574,0.0,259,47,6,0,Medium,0,Education
+63,31622,0.0,155,27,12,0,High,0,Family Support
+42,188372,0.01,243,39,7,0,Medium,0,Medical
+70,15352,0.0,110,19,4,0,Medium,0,Education
+46,179596,0.0,242,39,8,0,Critical,0,Medical
+25,64940,0.0,144,24,2,0,High,0,Education
+46,96955,0.01,236,43,10,0,Critical,0,Medical
+63,8433,0.0,100,19,3,1,Low,0,Family Support
+30,52516,0.0,144,24,11,0,Low,0,Education
+46,39208,0.63,194,33,6,0,Medium,1,Education
+25,22284,0.01,171,29,8,0,Medium,0,Education
+38,37357,0.04,300,55,1,0,Medium,0,Medical
+60,73954,0.01,161,29,3,0,High,0,Family Support
+31,41127,0.04,201,35,6,0,High,0,Basic Needs
+44,43177,0.0,235,42,8,0,Medium,0,Basic Needs
+52,63461,0.06,231,44,1,1,Medium,0,Education
+50,124322,0.08,154,32,9,0,Medium,0,Family Support
+69,18917,0.07,226,43,10,0,Medium,0,Education
+34,392037,0.01,202,39,1,1,High,0,Housing
+28,51246,0.01,161,29,4,0,Medium,0,Family Support
+67,120041,0.0,264,50,8,0,High,0,Housing
+52,36490,0.6,294,53,10,0,Low,1,Medical
+54,49890,0.6,172,30,9,0,Medium,1,Education
+70,75965,0.0,154,32,12,0,Medium,0,Family Support
+57,150909,0.01,247,47,3,0,High,0,Housing
+67,371160,0.0,148,26,8,0,Critical,0,Housing
+29,9502,0.45,175,27,1,0,Medium,0,Basic Needs
+61,34184,0.0,177,26,8,0,High,0,Basic Needs
+31,6372,0.1,291,51,7,0,High,0,Medical
+55,307918,0.01,323,61,3,3,High,0,Housing
+41,22813,0.01,286,52,3,0,High,0,Medical
+62,71957,0.01,276,52,11,0,Medium,0,Family Support
+28,108599,0.0,110,19,10,2,Medium,0,Education
+27,133093,0.07,209,36,11,0,High,0,Housing
+49,24486,0.64,215,38,10,0,Medium,1,Housing
+37,65434,0.0,218,36,4,0,High,0,Family Support
+28,52341,0.05,322,57,5,0,High,0,Medical
+29,58965,0.03,218,41,9,0,Low,0,Medical
+40,86586,0.01,222,41,12,0,High,0,Family Support
+44,79355,0.0,197,38,7,0,Medium,0,Housing
+27,83751,0.03,380,69,2,2,Critical,0,Medical
+67,3703,0.01,106,21,11,0,High,0,Basic Needs
+28,78345,0.0,162,30,9,0,Medium,0,Family Support
+42,158860,0.89,261,50,2,0,High,1,Housing
+63,89609,0.0,128,23,6,1,High,0,Education
+42,21788,0.04,376,70,8,0,Medium,0,Medical
+66,120424,0.0,296,54,10,0,Critical,0,Medical
+27,13155,0.02,239,44,9,0,Medium,0,Education
+26,25611,0.04,160,34,6,0,High,0,Basic Needs
+26,108910,0.0,110,19,6,0,Medium,0,Education
+66,132745,0.01,143,25,10,0,High,0,Housing
+67,88083,0.11,319,61,5,0,High,0,Medical
+32,25716,0.0,163,29,2,0,Medium,0,Basic Needs
+40,39212,0.09,154,32,11,3,Medium,0,Family Support
+35,387968,0.03,200,33,8,1,High,0,Housing
+50,48660,0.04,200,34,5,0,Medium,0,Basic Needs
+65,60106,0.0,128,23,5,0,High,0,Education
+48,104450,0.01,241,41,6,0,Critical,0,Medical
+62,114854,0.0,163,28,5,3,Low,0,Family Support
+43,66784,0.0,198,37,8,0,Low,0,Education
+60,103527,0.01,143,25,1,1,High,0,Housing
+53,80317,0.23,111,20,2,0,Low,0,Family Support
+32,100553,0.01,173,28,4,0,Medium,0,Education
+31,44618,0.01,110,19,4,1,Medium,0,Education
+41,399597,0.0,210,37,9,0,Critical,0,Housing
+70,102690,0.05,172,30,11,0,High,0,Family Support
+56,81360,0.04,221,40,7,0,Medium,0,Education
+32,182198,0.0,274,49,12,0,High,0,Housing
+26,57770,0.0,254,47,7,0,High,0,Basic Needs
+39,16961,0.0,234,39,6,0,Low,0,Medical
+63,102401,0.01,172,30,2,0,Medium,0,Family Support
+50,167141,0.0,211,35,3,0,High,0,Housing
+50,44142,0.0,162,30,5,0,Medium,0,Family Support
+42,35063,0.0,171,25,12,0,Medium,0,Basic Needs
+44,50724,0.15,223,43,1,0,Medium,0,Basic Needs
+42,280600,0.02,215,38,5,0,High,0,Housing
+39,33560,0.01,244,41,11,2,High,0,Medical
+61,18516,0.15,106,21,7,3,Medium,0,Basic Needs
+45,48456,0.12,176,28,9,3,High,0,Basic Needs
+53,15239,0.0,229,39,8,0,Critical,0,Medical
+68,42311,0.0,168,30,7,0,Medium,0,Basic Needs
+55,38478,0.79,111,20,3,0,Low,1,Family Support
+37,145963,0.0,230,39,8,1,Low,0,Medical
+62,103530,0.03,190,34,7,3,Medium,0,Education
+49,75676,0.08,165,33,11,1,Medium,0,Family Support
+25,86814,0.01,269,51,9,0,Medium,0,Housing
+47,22773,0.23,139,24,9,0,Medium,0,Basic Needs
+56,46916,0.08,114,17,3,2,Medium,0,Basic Needs
+49,54337,0.0,157,27,8,0,Medium,0,Family Support
+27,109410,0.02,218,41,1,1,Low,0,Medical
+55,51190,0.11,196,32,10,0,Low,0,Basic Needs
+28,21338,0.02,314,59,6,0,Critical,0,Medical
+62,70677,0.16,172,30,1,3,High,0,Education
+51,16690,0.04,259,47,6,0,Medium,0,Housing
+30,49390,0.02,274,48,1,0,High,0,Medical
+33,108325,0.02,328,62,5,1,High,0,Housing
+62,122879,0.2,218,41,11,0,Critical,0,Medical
+68,47852,0.03,114,17,9,2,Low,0,Basic Needs
+36,87670,0.01,161,29,7,0,Low,0,Family Support
+46,67537,0.14,215,38,4,0,Medium,0,Housing
+55,41383,0.0,160,34,6,0,Low,0,Basic Needs
+52,108054,0.0,218,36,10,0,High,0,Family Support
+33,26697,0.02,155,27,6,1,Medium,0,Family Support
+38,45406,0.02,218,41,12,0,High,0,Medical
+49,142266,0.0,265,48,2,0,High,0,Housing
+29,10050,0.26,228,42,4,0,Medium,0,Family Support
+33,84151,0.04,389,72,8,2,High,0,Medical
+58,196554,0.02,210,37,12,3,High,0,Housing
+28,41559,0.15,181,29,8,0,High,0,Basic Needs
+49,11855,0.01,106,21,1,0,Low,0,Basic Needs
+43,32162,0.06,139,24,7,0,Medium,0,Basic Needs
+43,88100,0.01,222,41,6,1,High,0,Family Support
+52,376230,0.0,207,37,11,0,High,0,Housing
+65,105116,0.01,226,39,9,0,Critical,0,Medical
+37,166370,0.52,218,41,9,0,Medium,1,Medical
+69,46003,0.01,177,26,1,1,High,0,Basic Needs
+45,48465,0.14,200,34,6,0,Medium,0,Basic Needs
+60,93797,0.02,217,38,8,0,Medium,0,Family Support
+56,24782,0.07,165,33,4,0,High,0,Family Support
+64,111892,0.22,167,31,1,0,Low,0,Family Support
+38,154617,0.0,263,46,5,0,High,0,Medical
+42,345445,0.05,143,25,2,0,High,0,Housing
+43,12287,0.0,156,30,3,0,High,0,Basic Needs
+51,61770,0.71,111,20,3,0,Medium,1,Family Support
+65,209141,0.13,143,25,1,0,High,0,Housing
+70,48980,0.06,328,62,1,0,Medium,0,Housing
+63,67189,0.04,165,33,8,3,Low,0,Family Support
+63,9218,0.09,154,32,8,0,High,0,Family Support
+65,8791,0.0,106,21,3,0,Medium,0,Basic Needs
+38,255250,0.0,148,26,12,0,High,0,Housing
+33,6400,0.14,244,47,4,0,Medium,0,Education
+34,10424,0.0,235,42,3,0,High,0,Basic Needs
+57,140480,0.68,234,43,7,0,Critical,1,Medical
+66,66183,0.02,182,36,3,0,High,0,Education
+47,172414,0.01,164,28,1,0,High,0,Medical
+46,37045,0.01,193,37,10,0,Medium,0,Basic Needs
+70,154336,0.0,211,35,10,0,High,0,Housing
+62,258411,0.05,197,38,2,0,High,0,Housing
+38,154246,0.02,221,36,1,0,High,0,Medical
+51,23537,0.01,222,45,9,0,Medium,0,Basic Needs
+32,66908,0.0,128,23,1,0,High,0,Education
+68,14687,0.0,243,46,2,0,Low,0,Basic Needs
+34,426991,0.0,261,50,3,0,High,0,Housing
+55,51600,0.1,189,33,3,0,High,0,Education
+47,31942,0.0,193,37,5,0,High,0,Basic Needs
+60,54263,0.01,229,40,4,0,Medium,0,Basic Needs
+67,48300,0.14,189,33,9,2,Low,0,Basic Needs
+29,197007,0.01,258,46,7,0,Critical,0,Medical
+41,79393,0.0,212,35,12,0,Medium,0,Family Support
+36,32199,0.02,222,45,7,0,Medium,0,Basic Needs
+28,35571,0.12,196,32,7,0,High,0,Basic Needs
+29,105313,0.07,160,28,2,3,High,0,Education
+66,24269,0.0,114,17,8,0,High,0,Basic Needs
+25,70856,0.1,165,33,4,0,Medium,0,Family Support
+34,30019,0.03,194,33,6,0,Low,0,Education
+67,58611,0.0,198,37,5,0,Medium,0,Education
+38,28160,0.07,139,24,4,1,High,0,Basic Needs
+47,29205,0.59,139,24,4,0,Medium,1,Basic Needs
+50,86259,0.71,181,30,2,0,Medium,1,Medical
+66,13623,0.0,256,46,10,0,High,0,Basic Needs
+51,25890,0.0,144,24,9,1,Medium,0,Education
+48,6732,0.12,249,48,1,0,Medium,0,Education
+35,61379,0.02,154,32,2,0,Medium,0,Family Support
+25,149669,0.13,202,39,3,0,High,0,Housing
+39,62127,0.64,155,27,12,0,High,1,Family Support
+54,70751,0.03,182,36,10,0,High,0,Education
+37,56747,0.18,196,32,5,0,Medium,0,Basic Needs
+38,146099,0.15,155,27,8,0,High,0,Family Support
+60,90557,0.0,171,29,6,1,High,0,Education
+44,116635,0.0,248,46,9,1,Medium,0,Education
+28,144415,0.71,111,20,4,0,Medium,1,Family Support
+70,114153,0.0,221,44,4,0,Medium,0,Family Support
+25,365287,0.0,207,37,6,0,High,0,Housing
+66,145323,0.01,322,60,6,0,High,0,Housing
+68,20646,0.0,311,59,11,0,Medium,0,Housing
+64,76330,0.08,235,43,1,0,Medium,0,Medical
+39,41259,0.0,139,24,7,0,Medium,0,Basic Needs
+42,46100,0.06,110,19,8,2,Medium,0,Education
+70,112761,0.0,128,23,10,0,Low,0,Education
+32,181320,0.66,231,40,12,2,Critical,1,Medical
+52,16158,0.02,254,47,10,0,Medium,0,Basic Needs
+47,35597,0.01,182,36,5,0,Medium,0,Education
+66,94367,0.0,154,32,3,0,High,0,Family Support
+30,68168,0.05,198,37,11,0,Medium,0,Education
+26,280352,0.0,193,34,12,0,High,0,Housing
+70,28001,0.02,168,32,3,0,High,0,Basic Needs
+40,28819,0.0,207,37,9,0,Medium,0,Housing
+26,120068,0.02,268,50,7,2,Low,0,Medical
+41,44963,0.69,244,47,10,0,Medium,1,Education
+70,69949,0.01,207,37,11,0,Medium,0,Housing
+64,117343,0.01,222,39,2,3,Low,0,Family Support
+26,59469,0.2,198,37,12,0,Medium,0,Education
+59,4776,0.09,209,40,11,3,Medium,0,Family Support
+36,397031,0.02,215,38,3,0,Critical,0,Housing
+44,118220,0.07,189,33,5,0,Medium,0,Education
+63,18504,0.0,157,27,12,0,High,0,Family Support
+29,133600,0.16,226,43,4,0,High,0,Family Support
+36,3988,0.01,139,24,11,0,Low,0,Basic Needs
+36,31141,0.0,261,46,9,0,High,0,Medical
+67,25966,0.03,139,24,3,0,Low,0,Basic Needs
+62,7960,0.0,164,26,12,0,Medium,0,Basic Needs
+53,55984,0.0,185,31,8,0,Medium,0,Education
+69,8456,0.08,194,33,4,0,Medium,0,Education
+49,18745,0.0,182,30,12,1,Low,0,Medical
+29,314444,0.02,264,50,11,1,High,0,Housing
+48,89275,0.0,261,50,11,0,Medium,0,Housing
+42,57511,0.12,191,32,7,0,Medium,0,Education
+69,9554,0.01,210,43,3,0,Low,0,Basic Needs
+43,19137,0.08,202,33,2,0,Low,0,Basic Needs
+32,14089,0.16,168,30,2,0,Medium,0,Basic Needs
+37,16470,0.06,326,61,10,0,Critical,0,Medical
+34,64044,0.0,226,39,4,1,High,0,Medical
+28,229918,0.0,259,49,9,0,High,0,Housing
+28,9840,0.08,218,39,4,0,Medium,0,Basic Needs
+49,34151,0.61,182,36,12,0,Medium,1,Education
+34,48705,0.56,154,32,7,1,Medium,1,Family Support
+33,57552,0.0,100,19,7,0,Medium,0,Family Support
+58,39249,0.16,114,17,4,0,Medium,0,Basic Needs
+34,42363,0.0,245,45,11,0,Medium,0,Education
+38,13294,0.0,114,17,5,0,High,0,Basic Needs
+33,44446,0.11,172,30,11,0,Medium,0,Education
+45,60839,0.0,330,57,6,0,Critical,0,Medical
+34,167080,0.09,337,59,7,0,Low,0,Medical
+27,262890,0.05,205,34,7,0,High,0,Housing
+61,27284,0.0,363,68,7,0,Medium,0,Medical
+43,427393,0.0,148,26,2,2,High,0,Housing
+45,83382,0.02,154,32,5,0,Medium,0,Family Support
+33,84811,0.01,225,42,1,0,Medium,0,Education
+52,20346,0.0,173,28,6,0,Medium,0,Education
+26,34845,0.01,207,33,2,0,Medium,0,Education
+34,117209,0.0,110,19,8,3,High,0,Education
+38,27355,0.03,181,29,6,0,Medium,0,Basic Needs
+36,54831,0.09,155,27,5,1,Medium,0,Family Support
+65,330387,0.0,197,38,7,0,High,0,Housing
+35,48118,0.05,110,19,1,0,Low,0,Education
+48,182784,0.77,225,38,2,0,Medium,1,Medical
+37,8596,0.11,249,48,12,0,Low,0,Education
+34,29498,0.02,193,37,1,0,Medium,0,Basic Needs
+36,262615,0.08,205,34,3,2,High,0,Housing
+28,50078,0.0,258,48,6,0,Medium,0,Housing
+46,59229,0.01,248,46,11,0,Medium,0,Education
+48,185428,0.03,179,30,4,0,Medium,0,Medical
+65,135023,0.01,143,25,12,0,High,0,Housing
+34,133697,0.34,164,28,8,0,Critical,0,Medical
+48,65094,0.06,198,37,5,0,Medium,0,Education
+37,27667,0.03,226,43,11,0,Medium,0,Education
+25,21405,0.0,139,24,1,1,Medium,0,Basic Needs
+45,122522,0.08,155,27,5,1,Medium,0,Family Support
+45,38053,0.0,229,40,1,0,High,0,Basic Needs
+27,37568,0.0,209,40,9,3,Medium,0,Family Support
+29,36385,0.14,114,17,8,0,High,0,Basic Needs
+28,6175,0.0,164,32,1,1,Medium,0,Education
+65,103340,0.03,190,34,5,0,Medium,0,Education
+30,138470,0.02,284,52,3,0,High,0,Medical
+63,19061,0.0,139,24,7,0,Medium,0,Basic Needs
+27,404448,0.0,207,37,4,0,High,0,Housing
+65,59958,0.02,254,47,5,0,Low,0,Basic Needs
+54,12830,0.0,167,31,9,0,High,0,Basic Needs
+28,5002,0.04,236,39,6,3,High,0,Medical
+27,124780,0.05,274,48,4,0,High,0,Medical
+40,156985,0.02,221,36,12,0,Critical,0,Medical
+56,29028,0.02,196,32,3,0,Medium,0,Basic Needs
+67,113602,0.67,200,33,4,2,High,1,Housing
+30,147761,0.03,235,43,3,0,Critical,0,Medical
+48,417293,0.0,207,37,5,0,High,0,Housing
+66,297702,0.0,261,50,12,0,High,0,Housing
+38,57857,0.01,207,37,8,0,Medium,0,Housing
+68,271471,0.0,148,26,2,0,High,0,Housing
+31,31730,0.0,168,30,3,3,High,0,Basic Needs
+50,74036,0.0,198,37,11,1,High,0,Education
+47,21674,0.0,167,31,6,0,High,0,Basic Needs
+45,58437,0.71,114,17,7,0,Medium,1,Basic Needs
+56,129484,0.66,227,37,5,0,Medium,1,Medical
+27,128537,0.01,264,50,11,0,High,0,Housing
+42,143420,0.03,215,42,11,0,Low,0,Family Support
+46,25138,0.07,292,51,4,0,High,0,Medical
+46,113826,0.14,144,24,9,0,Medium,0,Education
+53,8383,0.64,165,33,12,0,Medium,1,Family Support
+30,45561,0.01,169,30,7,0,Medium,0,Basic Needs
+59,265546,0.01,264,50,2,2,Critical,0,Housing
+67,7321,0.02,323,55,6,0,High,0,Medical
+60,23590,0.01,268,50,3,0,Critical,0,Medical
+51,133144,0.01,269,51,5,0,High,0,Housing
+63,101121,0.0,128,23,3,0,Medium,0,Education
+29,57698,0.01,173,28,2,2,Low,0,Education
+44,137070,0.0,100,19,9,0,Medium,0,Family Support
+46,92760,0.61,165,33,9,0,Medium,1,Family Support
+40,115582,0.03,197,38,6,0,High,0,Housing
+43,204523,0.0,206,34,12,0,High,0,Housing
+46,439451,0.06,215,38,9,0,Critical,0,Housing
+50,134775,0.26,225,38,8,0,High,0,Medical
+55,11157,0.01,250,45,4,3,Medium,0,Basic Needs
+61,342344,0.0,265,48,5,0,High,0,Housing
+45,58252,0.02,281,50,10,0,High,0,Medical
+39,48422,0.03,372,68,3,0,High,0,Medical
+30,247011,0.05,143,25,3,0,High,0,Housing
+45,42346,0.0,160,34,7,0,High,0,Basic Needs
+45,48853,0.71,206,36,5,0,High,1,Basic Needs
+47,119371,0.05,297,53,8,0,Critical,0,Medical
+58,117609,0.01,265,48,1,0,High,0,Housing
+53,78010,0.0,335,56,4,0,High,0,Medical
+55,138860,0.67,261,50,1,0,High,1,Housing
+48,14242,0.06,202,33,5,0,High,0,Basic Needs
+55,141838,0.19,209,36,11,0,High,0,Housing
+29,123788,0.01,154,32,9,0,Low,0,Family Support
+61,109220,0.0,165,33,5,0,High,0,Family Support
+63,51971,0.61,239,44,1,0,Medium,1,Education
+50,245176,0.0,210,37,5,0,High,0,Housing
+28,106333,0.08,296,53,11,0,Medium,0,Medical
+46,12875,0.0,201,35,1,3,High,0,Basic Needs
+64,138527,0.03,155,27,10,0,Medium,0,Family Support
+34,73020,0.0,209,40,3,0,High,0,Family Support
+51,116912,0.0,281,50,10,2,Critical,0,Medical
+32,440559,0.06,197,38,6,0,High,0,Housing
+45,71163,0.0,128,23,12,0,Medium,0,Education
+50,42366,0.0,144,24,5,0,Medium,0,Education
+59,234829,0.08,265,48,10,0,High,0,Housing
+34,4005,0.0,169,30,6,0,High,0,Basic Needs
+40,24027,0.06,181,29,3,3,Low,0,Basic Needs
+55,207291,0.69,143,25,12,0,Critical,1,Housing
+64,53396,0.0,100,19,3,0,High,0,Family Support
+29,71152,0.02,111,20,3,0,Medium,0,Family Support
+69,50022,0.1,190,34,9,0,Low,0,Education
+34,45800,0.02,328,62,10,0,Medium,0,Housing
+52,397405,0.64,202,39,10,0,Critical,1,Housing
+36,177577,0.07,164,28,7,0,High,0,Medical
+25,68693,0.0,270,50,7,0,Low,0,Family Support
+51,346107,0.04,247,47,7,3,High,0,Housing
+50,54553,0.02,111,20,8,0,Medium,0,Family Support
+26,21462,0.0,180,30,8,0,High,0,Medical
+66,45806,0.0,163,29,10,2,High,0,Basic Needs
+59,162350,0.0,381,70,12,0,Critical,0,Medical
+46,15124,0.59,175,27,1,0,Medium,1,Basic Needs
+43,58895,0.0,167,27,4,0,High,0,Education
+40,431508,0.0,328,62,5,0,High,0,Housing
+47,104680,0.03,111,20,4,0,Medium,0,Family Support
+46,185756,0.02,375,70,9,0,Critical,0,Medical
+38,20537,0.03,111,20,4,0,Medium,0,Family Support
+37,9488,0.0,179,30,12,0,Critical,0,Medical
+60,129106,0.04,164,28,9,0,Medium,0,Medical
+59,115545,0.64,144,24,2,0,High,1,Education
+48,50406,0.01,221,44,6,0,Medium,0,Basic Needs
+31,88443,0.14,311,55,3,0,High,0,Medical
+60,146147,0.17,165,33,6,0,Low,0,Family Support
+42,29724,0.07,394,74,10,0,Critical,0,Medical
+46,30229,0.79,217,38,11,1,Medium,1,Family Support
+37,10781,0.0,198,37,8,0,Low,0,Education
+42,10168,0.0,156,30,12,0,High,0,Basic Needs
+66,84441,0.1,270,46,12,0,Medium,0,Housing
+66,187510,0.01,245,39,1,1,High,0,Medical
+53,57206,0.0,162,30,7,0,Medium,0,Family Support
+54,101084,0.05,231,44,8,0,Medium,0,Education
+54,120792,0.13,111,20,4,0,Medium,0,Family Support
+40,129752,0.03,197,38,10,0,High,0,Housing
+50,66235,0.0,100,19,5,0,Medium,0,Family Support
+56,88819,0.78,226,43,12,2,Medium,1,Family Support
+50,96555,0.0,163,28,2,0,Medium,0,Family Support
+39,7307,0.01,272,49,12,0,Low,0,Family Support
+60,62863,0.01,372,67,4,0,High,0,Medical
+46,8128,0.03,176,28,5,0,High,0,Basic Needs
+51,137042,0.0,337,64,10,0,High,0,Medical
+31,364856,0.57,324,59,5,1,High,1,Housing
+27,394616,0.0,148,26,4,0,High,0,Housing
+35,46855,0.0,256,46,8,1,High,0,Basic Needs
+68,89520,0.0,155,27,8,0,High,0,Family Support
+41,14862,0.0,156,30,7,3,Medium,0,Basic Needs
+50,198360,0.03,314,56,3,0,Medium,0,Medical
+59,143919,0.58,204,41,2,1,High,1,Family Support
+64,26012,0.58,245,40,6,1,High,1,Medical
+35,171996,0.18,329,55,10,0,High,0,Medical
+63,97625,0.61,182,30,6,0,Critical,1,Medical
+67,78283,0.07,165,33,9,1,High,0,Family Support
+27,18096,0.01,160,34,7,0,High,0,Basic Needs
+34,89316,0.22,225,38,7,0,Medium,0,Medical
+38,38586,0.01,171,25,8,0,Medium,0,Basic Needs
+42,220351,0.01,193,34,5,0,High,0,Housing
+40,141496,0.04,272,49,11,3,Medium,0,Family Support
+35,102153,0.0,128,23,3,0,Medium,0,Education
+65,81182,0.05,335,57,1,0,Critical,0,Medical
+55,81179,0.65,164,28,9,0,Critical,1,Medical
+57,188828,0.0,148,26,3,0,High,0,Housing
+38,110995,0.04,198,37,6,0,High,0,Education
+70,127277,0.02,281,50,3,2,Critical,0,Medical
+27,408238,0.0,204,35,11,2,Critical,0,Housing
+26,73727,0.0,207,37,10,2,Medium,0,Housing
+51,92144,0.0,243,46,4,1,Medium,0,Education
+43,65566,0.01,265,49,6,0,High,0,Education
+46,148770,0.02,143,25,1,1,High,0,Housing
+50,71070,0.0,207,33,12,0,High,0,Education
+50,443957,0.08,269,51,1,0,High,0,Housing
+52,60178,0.0,211,36,10,0,Low,0,Education
+32,3649,0.72,182,36,9,0,Medium,1,Education
+27,35541,0.03,155,27,1,0,Medium,0,Family Support
+29,50652,0.02,111,20,1,0,Medium,0,Family Support
+64,80702,0.11,111,20,10,0,Medium,0,Family Support
+59,68064,0.01,215,42,3,0,Low,0,Family Support
+31,438141,0.0,148,26,4,0,High,0,Housing
+34,124847,0.02,321,60,8,0,Critical,0,Medical
+67,97844,0.0,155,27,11,1,Low,0,Family Support
+34,30452,0.7,202,33,6,0,Medium,1,Basic Needs
+61,61788,0.72,285,53,1,0,Medium,1,Medical
+32,104871,0.12,191,32,5,0,Low,0,Education
+39,242671,0.02,202,39,11,0,High,0,Housing
+64,11680,0.02,317,54,1,0,Medium,0,Medical
+51,28676,0.0,128,23,10,3,Medium,0,Education
+35,120709,0.0,178,32,3,0,High,0,Family Support
+55,12549,0.01,168,30,10,0,Medium,0,Basic Needs
+37,14689,0.0,245,45,3,0,Low,0,Education
+35,12707,0.0,227,46,1,0,Medium,0,Basic Needs
+32,145917,0.0,157,27,5,1,High,0,Family Support
+42,66999,0.0,263,46,8,0,Low,0,Medical
+35,43881,0.5,106,21,2,0,Medium,0,Basic Needs
+59,34198,0.04,181,29,12,0,High,0,Basic Needs
+68,63006,0.01,154,32,10,0,Medium,0,Family Support
+69,66852,0.01,218,41,7,1,High,0,Medical
+65,60187,0.0,197,38,7,0,Low,0,Housing
+34,12535,0.01,211,36,10,0,Medium,0,Education
+64,105675,0.07,198,37,10,0,Low,0,Education
+52,377496,0.06,143,25,5,0,High,0,Housing
+43,148049,0.0,179,30,9,1,Critical,0,Medical
+49,9872,0.0,157,27,11,2,Medium,0,Family Support
+52,95695,0.0,211,35,3,0,Medium,0,Housing
+36,67254,0.37,265,47,7,0,High,0,Medical
+54,47019,0.22,227,44,5,0,Medium,0,Family Support
+33,80113,0.08,174,29,4,0,Medium,0,Family Support
+61,151696,0.0,197,38,2,0,High,0,Housing
+61,32052,0.13,194,33,12,0,Medium,0,Education
+48,139035,0.0,100,19,5,2,High,0,Family Support
+65,156247,0.12,278,49,2,2,Critical,0,Medical
+44,17093,0.09,191,32,6,0,Medium,0,Education
+52,15004,0.05,174,29,1,0,Medium,0,Family Support
+36,36985,0.57,268,50,12,0,Critical,1,Medical
+58,197618,0.04,207,37,7,0,High,0,Housing
+57,61953,0.0,245,45,10,0,High,0,Education
+52,44592,0.03,214,41,12,0,Low,0,Education
+33,4809,0.0,169,30,3,0,Medium,0,Basic Needs
+29,130967,0.0,226,39,1,0,Critical,0,Medical
+49,131615,0.01,100,19,3,0,Medium,0,Family Support
+34,113882,0.0,110,19,9,0,Medium,0,Education
+33,36107,0.68,227,44,4,0,High,1,Family Support
+51,58466,0.03,288,53,10,0,High,0,Medical
+54,309671,0.01,269,51,11,0,High,0,Housing
+60,27722,0.04,114,17,1,0,Medium,0,Basic Needs
+70,358616,0.06,207,37,10,0,High,0,Housing
+52,6938,0.08,210,43,11,0,Low,0,Basic Needs
+45,72934,0.7,217,38,8,0,Medium,1,Family Support
+46,317833,0.01,197,38,9,0,Critical,0,Housing
+29,125817,0.01,154,32,9,0,Low,0,Family Support
+34,28835,0.0,162,30,3,0,High,0,Family Support
+68,134979,0.05,227,44,9,0,Medium,0,Family Support
+59,433744,0.01,322,60,1,0,High,0,Housing
+35,39389,0.0,139,24,2,2,High,0,Basic Needs
+57,3643,0.1,182,36,10,0,Medium,0,Education
+34,12315,0.0,114,17,3,0,High,0,Basic Needs
+49,15971,0.72,164,28,3,0,Medium,1,Medical
+38,241203,0.67,205,34,7,0,Critical,1,Housing
+30,92527,0.0,171,29,7,0,Medium,0,Education
+69,194156,0.07,272,49,7,3,Medium,0,Medical
+31,34103,0.0,161,29,3,0,High,0,Family Support
+34,19107,0.08,331,56,8,0,High,0,Medical
+30,3466,0.17,200,34,7,0,Low,0,Basic Needs
+66,31978,0.0,311,59,5,0,Medium,0,Housing
+44,40674,0.13,173,33,12,0,High,0,Basic Needs
+25,103814,0.04,227,41,3,0,Medium,0,Education
+52,140489,0.07,164,28,2,1,High,0,Medical
+51,257192,0.07,264,45,12,0,Critical,0,Housing
+70,30514,0.0,156,30,4,0,Medium,0,Basic Needs
+25,333223,0.0,207,37,7,0,High,0,Housing
+29,188363,0.0,334,58,8,0,High,0,Medical
+53,127515,0.03,244,41,3,0,Critical,0,Medical
+70,3793,0.01,155,27,6,0,Medium,0,Family Support
+66,135260,0.74,231,40,7,0,High,1,Medical
+60,27035,0.01,200,34,2,0,Medium,0,Basic Needs
+38,70552,0.08,160,28,12,1,High,0,Education
+26,35788,0.55,168,30,8,0,Medium,1,Basic Needs
+30,77915,0.01,160,28,9,2,Medium,0,Education
+26,12254,0.01,182,36,10,2,Low,0,Education
+48,144321,0.0,209,40,3,2,High,0,Family Support
+30,62974,0.0,206,34,11,0,Low,0,Housing
+34,27696,0.0,114,17,10,0,High,0,Basic Needs
+62,16539,0.64,218,41,9,0,High,1,Medical
+47,63324,0.03,164,32,10,0,Medium,0,Education
+59,115540,0.01,215,42,1,0,Medium,0,Family Support
+40,159293,0.0,193,34,10,0,High,0,Housing
+27,106596,0.07,155,27,9,0,Medium,0,Family Support
+29,34608,0.0,226,39,10,0,Medium,0,Medical
+38,2027,0.04,193,37,6,0,High,0,Basic Needs
+42,73729,0.18,225,38,3,0,Medium,0,Medical
+55,50989,0.12,175,27,2,0,Medium,0,Basic Needs
+60,121090,0.0,236,38,5,0,High,0,Medical
+64,108482,0.63,164,32,5,0,Medium,1,Education
+62,177990,0.14,323,55,1,0,High,0,Medical
+49,49040,0.0,211,36,2,3,Medium,0,Education
+33,19033,0.09,173,33,6,3,Low,0,Basic Needs
+43,92444,0.07,110,19,5,0,High,0,Education
+48,47553,0.0,205,34,10,0,Medium,0,Education
+48,59402,0.01,193,37,7,0,High,0,Basic Needs
+47,4200,0.02,227,41,12,2,Medium,0,Education
+45,8793,0.0,250,45,2,0,High,0,Basic Needs
+28,143732,0.01,205,36,1,0,High,0,Family Support
+63,121415,0.0,245,41,1,0,Critical,0,Medical
+38,94692,0.0,229,39,4,0,High,0,Medical
+57,367190,0.08,143,25,10,0,Critical,0,Housing
+66,24186,0.01,193,37,3,2,Medium,0,Basic Needs
+30,52079,0.0,139,24,4,0,High,0,Basic Needs
+68,127448,0.73,215,42,6,0,High,1,Family Support
+70,164614,0.07,179,30,4,1,Medium,0,Medical
+65,192473,0.0,241,40,7,1,Low,0,Medical
+52,30559,0.0,128,23,9,0,Medium,0,Education
+63,68842,0.0,160,28,9,0,Medium,0,Education
+63,267308,0.15,264,50,10,0,High,0,Housing
+49,37655,0.09,111,20,4,1,Low,0,Family Support
+50,58073,0.03,111,20,3,0,High,0,Family Support
+36,9267,0.19,231,40,2,3,Low,0,Medical
+32,55597,0.0,250,45,5,0,Low,0,Basic Needs
+62,427178,0.01,198,35,9,2,High,0,Housing
+50,91356,0.04,292,51,10,0,Medium,0,Medical
+30,26311,0.01,139,24,6,0,High,0,Basic Needs
+31,40763,0.0,164,26,5,0,Medium,0,Basic Needs
+34,312516,0.13,210,37,10,0,High,0,Housing
+58,130217,0.15,216,37,11,0,Medium,0,Family Support
+63,10696,0.06,168,30,8,0,Medium,0,Basic Needs
+44,18064,0.0,148,26,10,0,Medium,0,Housing
+54,180889,0.07,287,52,3,3,Medium,0,Medical
+42,33295,0.01,235,42,6,0,Medium,0,Basic Needs
+31,92262,0.02,239,44,5,0,Medium,0,Education
+70,11305,0.09,190,34,11,0,Medium,0,Education
+36,335353,0.02,197,38,6,3,High,0,Housing
+49,431725,0.11,264,45,7,0,Critical,0,Housing
+36,108809,0.01,173,28,2,0,Low,0,Education
+33,6645,0.05,225,38,8,0,Medium,0,Basic Needs
+60,62507,0.18,155,27,11,0,Low,0,Family Support
+41,103399,0.04,182,36,2,0,High,0,Education
+38,12269,0.03,245,45,1,0,Medium,0,Education
+48,24111,0.01,173,33,3,0,Medium,0,Basic Needs
+70,145066,0.04,272,49,9,0,Medium,0,Family Support
+59,61394,0.13,182,36,8,0,High,0,Education
+25,88079,0.07,271,51,2,1,High,0,Family Support
+57,42309,0.03,181,30,6,0,High,0,Medical
+48,47785,0.02,171,25,2,0,Medium,0,Basic Needs
+25,16310,0.0,163,28,2,0,Medium,0,Family Support
+65,11386,0.0,221,44,8,0,Medium,0,Family Support
+62,65450,0.67,401,74,12,0,Medium,1,Medical
+32,31479,0.0,198,35,4,0,Medium,0,Housing
+46,50681,0.0,241,39,10,0,High,0,Medical
+56,8420,0.21,329,58,11,0,High,0,Medical
+27,17835,0.63,230,41,9,0,Medium,1,Basic Needs
+48,54462,0.0,245,45,9,2,Low,0,Education
+43,148573,0.0,206,34,4,0,High,0,Housing
+25,77883,0.0,110,19,1,1,Medium,0,Education
+34,14584,0.27,191,32,7,2,Low,0,Education
+45,51776,0.01,205,36,2,0,Medium,0,Family Support
+25,31987,0.61,217,42,7,0,High,1,Basic Needs
+47,2401,0.05,256,46,4,0,High,0,Basic Needs
+61,98955,0.0,212,35,10,0,High,0,Family Support
+54,46903,0.01,161,29,12,0,Low,0,Family Support
+69,6401,0.01,160,34,10,0,Medium,0,Basic Needs
+67,21101,0.01,164,32,3,3,Low,0,Education
+34,161142,0.0,148,26,9,0,High,0,Housing
+70,91228,0.12,164,32,3,1,High,0,Education
+53,379617,0.17,324,59,2,0,Critical,0,Housing
+25,10528,0.04,164,32,6,0,Low,0,Education
+39,184250,0.04,268,50,1,0,Critical,0,Medical
+27,79289,0.0,255,45,9,0,Medium,0,Education
+30,77136,0.0,259,47,8,0,Medium,0,Housing
+27,12025,0.01,235,42,2,2,Low,0,Basic Needs
+44,49007,0.0,225,38,4,0,Medium,0,Basic Needs
+32,18759,0.59,106,21,4,0,High,1,Basic Needs
+57,35599,0.01,193,34,9,0,Low,0,Housing
+70,314312,0.0,211,35,12,0,High,0,Housing
+67,16739,0.02,106,21,5,1,High,0,Basic Needs
+26,73012,0.02,154,32,7,0,Medium,0,Family Support
+42,43663,0.08,202,33,6,0,High,0,Basic Needs
+49,76493,0.0,270,50,3,0,Low,0,Family Support
+30,40380,0.0,221,44,6,0,High,0,Family Support
+48,18553,0.0,259,47,5,0,Medium,0,Education
+44,126930,0.0,211,35,1,0,High,0,Housing
+68,98393,0.0,323,62,3,0,High,0,Medical
+48,39616,0.0,128,23,3,0,Low,0,Education
+56,12721,0.0,164,26,11,0,Low,0,Basic Needs
+61,28655,0.0,250,45,4,3,Low,0,Basic Needs
+45,16961,0.01,259,46,1,0,Critical,0,Medical
+32,16857,0.0,114,17,10,0,Medium,0,Basic Needs
+37,24666,0.0,235,42,6,0,Medium,0,Basic Needs
+33,25084,0.1,231,39,12,2,Low,0,Basic Needs
+25,61211,0.0,222,39,6,0,High,0,Family Support
+27,135504,0.69,164,28,3,1,High,1,Medical
+39,85853,0.71,177,31,4,0,Medium,1,Education
+45,10586,0.01,139,24,3,0,High,0,Basic Needs
+31,69520,0.0,162,30,3,0,Medium,0,Family Support
+47,445468,0.0,264,50,11,0,High,0,Housing
+32,373442,0.01,265,48,9,0,Critical,0,Housing
+25,60606,0.01,212,35,7,0,Medium,0,Family Support
+45,8902,0.01,185,31,7,0,Medium,0,Education
+61,47855,0.02,178,32,6,3,Medium,0,Education
+25,103461,0.0,261,50,8,0,High,0,Housing
+37,340218,0.0,210,37,7,2,High,0,Housing
+36,181934,0.07,181,30,1,0,High,0,Medical
+38,94525,0.2,232,45,12,0,Low,0,Education
+36,44560,0.0,168,28,3,0,Medium,0,Family Support
+25,29581,0.0,167,31,10,0,Medium,0,Basic Needs
+51,29959,0.0,254,47,12,0,Medium,0,Basic Needs
+49,166600,0.02,239,38,4,0,High,0,Medical
+69,97242,0.01,255,45,1,1,Low,0,Education
+64,90922,0.0,161,29,11,0,High,0,Family Support
+44,106770,0.03,160,28,6,0,Medium,0,Education
+43,38342,0.01,190,34,7,0,Medium,0,Education
+63,60285,0.47,111,20,10,0,High,0,Family Support
+61,75368,0.02,268,47,9,0,Medium,0,Housing
+62,19470,0.0,259,47,1,0,Medium,0,Education
+28,30954,0.0,276,52,3,0,Medium,0,Family Support
+65,3303,0.07,182,36,10,0,Medium,0,Education
+41,61009,0.01,205,36,2,1,High,0,Family Support
+37,111003,0.0,259,47,5,0,High,0,Housing
+27,44672,0.01,168,30,6,0,High,0,Basic Needs
+56,21885,0.01,291,51,8,0,Medium,0,Medical
+35,39743,0.03,195,35,8,0,Medium,0,Education
+64,23515,0.08,259,47,3,0,Medium,0,Housing
+69,30034,0.01,160,34,8,0,Medium,0,Basic Needs
+28,30604,0.01,198,37,1,0,Low,0,Education
+38,430447,0.21,268,47,3,0,High,0,Housing
+70,178517,0.01,296,53,3,0,Critical,0,Medical
+31,132811,0.76,150,28,6,0,High,1,Family Support
+39,60764,0.0,227,41,3,0,Medium,0,Education
+49,76858,0.0,100,19,12,1,Medium,0,Family Support
+33,36254,0.0,237,43,9,0,Medium,0,Medical
+29,130069,0.03,173,31,5,0,Medium,0,Family Support
+36,67748,0.0,211,36,2,0,High,0,Education
+32,92797,0.74,164,32,5,0,Medium,1,Education
+43,174767,0.01,193,34,9,1,High,0,Housing
+68,14416,0.0,156,30,12,1,Medium,0,Basic Needs
+42,68274,0.01,182,36,8,0,Low,0,Education
+33,155131,0.05,369,67,3,0,Critical,0,Medical
+45,319907,0.0,274,49,7,0,High,0,Housing
+49,341894,0.0,207,37,9,1,Critical,0,Housing
+39,11419,0.01,261,46,11,0,Medium,0,Education
+59,147459,0.11,285,53,8,1,High,0,Medical
+44,16162,0.0,325,57,7,0,Medium,0,Medical
+49,84472,0.06,228,42,3,0,Low,0,Family Support
+37,38840,0.03,207,37,5,0,Medium,0,Housing
+32,120050,0.18,150,28,3,0,High,0,Family Support
+60,236379,0.2,207,37,7,0,Critical,0,Housing
+50,3504,0.03,227,41,6,0,Medium,0,Education
+35,83733,0.0,110,19,3,3,Medium,0,Education
+38,334508,0.02,143,25,7,0,High,0,Housing
+50,69967,0.08,275,49,8,3,Medium,0,Medical
+59,132338,0.04,257,46,6,3,High,0,Housing
+66,56101,0.13,189,33,10,0,High,0,Basic Needs
+53,379271,0.0,148,26,2,0,High,0,Housing
+26,93997,0.01,210,37,12,0,Medium,0,Housing
+45,135967,0.0,165,33,10,0,Medium,0,Family Support
+44,10891,0.21,233,43,8,0,Critical,0,Medical
+50,38257,0.0,168,32,10,0,High,0,Basic Needs
+37,69069,0.0,261,46,6,0,Medium,0,Education
+43,10328,0.01,204,41,5,0,Medium,0,Family Support
+35,35491,0.0,198,35,7,2,Low,0,Housing
+59,364031,0.0,210,37,1,0,High,0,Housing
+51,122198,0.0,393,70,7,0,Critical,0,Medical
+38,96699,0.0,161,29,7,2,Medium,0,Family Support
+66,12616,0.03,168,30,7,0,Medium,0,Basic Needs
+43,71077,0.21,275,49,3,0,Low,0,Medical
+44,9656,0.01,106,21,6,0,High,0,Basic Needs
+25,245464,0.02,215,38,1,0,High,0,Housing
+31,17188,0.02,206,36,9,0,High,0,Basic Needs
+28,221772,0.04,200,33,3,2,High,0,Housing
+59,18146,0.01,168,32,11,0,High,0,Basic Needs
+45,45951,0.0,128,23,9,3,Medium,0,Education
+42,43853,0.0,160,34,4,0,High,0,Basic Needs
+62,39426,0.0,243,46,8,0,High,0,Basic Needs
+51,22995,0.01,329,58,12,0,High,0,Medical
+60,128807,0.0,161,29,10,0,High,0,Family Support
+51,15939,0.09,218,39,6,0,Medium,0,Basic Needs
+49,247098,0.0,274,49,7,1,High,0,Housing
+41,39690,0.02,193,37,10,0,Medium,0,Basic Needs
+70,144637,0.0,154,32,10,0,Medium,0,Family Support
+44,123015,0.13,150,28,10,0,Medium,0,Family Support
+58,32140,0.01,212,35,10,0,Low,0,Family Support
+58,123450,0.0,245,40,2,0,Critical,0,Medical
+52,46910,0.12,236,43,9,1,Critical,0,Medical
+30,56676,0.79,200,34,10,0,Medium,1,Basic Needs
+31,15319,0.69,167,31,7,0,High,1,Family Support
+59,101173,0.02,173,28,1,1,High,0,Education
+55,94635,0.0,209,40,3,3,High,0,Family Support
+44,30077,0.0,144,24,7,0,Medium,0,Education
+38,225209,0.43,270,46,10,2,High,0,Housing
+65,18142,0.69,181,29,2,0,High,1,Basic Needs
+43,16164,0.0,281,50,12,1,High,0,Medical
+46,7387,0.06,168,32,7,3,High,0,Basic Needs
+51,35621,0.0,155,27,1,1,Medium,0,Family Support
+31,46330,0.0,210,43,5,1,High,0,Basic Needs
+69,45206,0.15,114,17,11,0,Low,0,Basic Needs
+42,32330,0.0,155,27,12,0,Medium,0,Family Support
+26,54824,0.16,114,17,10,0,Medium,0,Basic Needs
+38,142027,0.01,214,37,2,0,Medium,0,Medical
+55,64436,0.07,200,33,4,1,Medium,0,Housing
+33,48741,0.03,246,39,1,0,High,0,Medical
+25,6344,0.0,139,24,1,0,High,0,Basic Needs
+40,12867,0.65,214,41,1,0,Medium,1,Education
+60,18761,0.61,223,43,10,0,High,1,Basic Needs
+66,31130,0.19,218,41,2,2,Critical,0,Medical
+50,49521,0.03,315,59,1,0,Medium,0,Medical
+48,320865,0.0,274,49,1,1,High,0,Housing
+64,176533,0.04,382,69,8,0,High,0,Medical
+56,71554,0.15,164,28,6,0,Critical,0,Medical
+54,19101,0.05,326,60,3,0,Critical,0,Medical
+46,19686,0.02,139,24,2,0,Medium,0,Basic Needs
+49,29568,0.01,225,38,11,2,High,0,Basic Needs
+69,198896,0.67,259,47,2,0,High,1,Housing
+59,197022,0.03,218,41,11,0,High,0,Medical
+54,2633,0.07,235,42,9,0,Medium,0,Basic Needs
+61,167453,0.0,379,69,10,0,Low,0,Medical
+65,426787,0.01,268,47,6,0,High,0,Housing
+42,47085,0.27,217,38,2,1,High,0,Family Support
+26,212605,0.01,148,26,5,0,High,0,Housing
+41,9066,0.69,217,38,10,0,Low,1,Family Support
+61,14725,0.0,271,51,7,0,Low,0,Family Support
+41,9044,0.23,227,44,11,0,High,0,Family Support
+58,45394,0.13,114,17,11,0,Medium,0,Basic Needs
+65,363510,0.02,268,47,1,0,High,0,Housing
+62,109016,0.02,211,40,8,0,High,0,Family Support
+59,94800,0.02,210,37,3,0,Medium,0,Housing
+47,275508,0.0,206,34,5,0,Critical,0,Housing
+26,339930,0.06,143,25,2,0,High,0,Housing
+26,119949,0.61,198,37,7,0,High,1,Education
+58,30531,0.01,143,25,2,0,Medium,0,Housing
+30,36888,0.11,206,36,7,0,Medium,0,Basic Needs
+27,21917,0.0,128,23,8,1,Medium,0,Education
+65,43517,0.0,205,34,9,0,Medium,0,Education
+68,90579,0.0,185,31,4,0,Medium,0,Education
+42,42724,0.21,106,21,8,0,Medium,0,Basic Needs
+62,99792,0.07,319,54,1,0,Low,0,Medical
+42,176081,0.04,143,25,8,0,High,0,Housing
+47,105977,0.0,144,24,3,0,High,0,Education
+37,142249,0.01,162,30,3,0,High,0,Family Support
+29,113041,0.07,155,27,10,0,Medium,0,Family Support
+35,86527,0.64,218,41,4,1,Critical,1,Medical
+40,103938,0.0,212,35,1,0,Medium,0,Family Support
+30,58012,0.01,154,32,6,0,Medium,0,Family Support
+31,104699,0.0,100,19,3,0,High,0,Family Support
+58,4235,0.12,265,49,11,0,Medium,0,Education
+68,288985,0.02,215,38,1,1,High,0,Housing
+55,182431,0.08,218,41,11,0,High,0,Medical
+51,18656,0.01,210,37,4,0,Medium,0,Housing
+66,81850,0.79,331,58,4,2,High,1,Medical
+54,3305,0.02,160,34,7,0,Medium,0,Basic Needs
+34,112933,0.08,182,36,7,1,Low,0,Education
+35,32492,0.05,111,20,11,0,High,0,Family Support
+52,24554,0.01,235,43,1,2,Medium,0,Medical
+43,67243,0.04,111,20,4,0,High,0,Family Support
+42,133603,0.07,164,28,9,2,Medium,0,Medical
+29,187761,0.27,268,47,2,0,High,0,Housing
+63,9944,0.01,180,30,3,0,High,0,Medical
+27,3790,0.69,189,33,8,0,Medium,1,Basic Needs
+28,175901,0.0,206,34,4,0,High,0,Housing
+49,23779,0.04,106,21,5,2,High,0,Basic Needs
+49,22720,0.37,330,61,12,0,High,0,Medical
+38,112562,0.06,172,30,8,0,Low,0,Education
+69,422592,0.02,205,34,4,0,High,0,Housing
+53,7315,0.65,259,46,6,0,High,1,Medical
+46,57740,0.09,168,30,2,0,High,0,Basic Needs
+33,109509,0.0,259,49,1,2,High,0,Housing
+52,46317,0.1,279,51,11,0,High,0,Medical
+25,51968,0.0,257,46,4,0,Critical,0,Medical
+50,13149,0.0,185,31,2,0,Low,0,Education
+53,94766,0.0,322,61,12,2,High,0,Medical
+35,242137,0.0,206,34,5,2,High,0,Housing
+69,61947,0.01,100,19,3,0,Low,0,Family Support
+47,117522,0.01,279,50,1,0,High,0,Medical
+44,323340,0.0,148,26,9,1,High,0,Housing
+51,13117,0.04,176,28,1,0,High,0,Basic Needs
+48,171915,0.0,204,35,5,0,High,0,Housing
+36,143282,0.33,268,47,7,0,High,0,Housing
+46,32506,0.0,198,35,4,0,Medium,0,Housing
+43,325428,0.01,311,59,8,0,Critical,0,Housing
+30,10540,0.01,182,36,8,0,Low,0,Education
+56,125530,0.01,281,50,6,2,Low,0,Medical
+62,12963,0.0,259,47,12,0,Medium,0,Education
+57,36013,0.02,198,37,7,1,Medium,0,Education
+35,144734,0.11,233,43,5,1,Medium,0,Medical
+31,16155,0.01,173,28,10,2,Medium,0,Education
+69,43193,0.6,173,31,2,0,Medium,1,Family Support
+25,131642,0.06,380,70,9,0,Medium,0,Medical
+52,17984,0.13,150,28,3,0,Medium,0,Family Support
+58,48035,0.72,232,45,6,0,Medium,1,Family Support
+35,424017,0.0,202,39,11,0,High,0,Housing
+47,171626,0.03,260,47,7,0,Medium,0,Medical
+30,430717,0.0,261,50,3,1,High,0,Housing
+51,56265,0.0,231,39,1,0,Medium,0,Basic Needs
+30,55636,0.66,228,42,10,0,Medium,1,Family Support
+51,42635,0.06,233,43,8,0,High,0,Medical
+33,191968,0.01,389,71,6,1,High,0,Medical
+38,427352,0.01,311,59,7,0,High,0,Housing
+43,14886,0.0,201,35,8,0,Low,0,Basic Needs
+38,52201,0.06,278,49,11,0,Critical,0,Medical
+30,52489,0.01,154,32,3,2,High,0,Family Support
+42,54175,0.79,114,17,4,1,Medium,1,Basic Needs
+49,57790,0.09,172,30,10,2,Low,0,Education
+65,106425,0.01,202,39,2,0,High,0,Housing
+29,41167,0.0,148,26,6,0,Medium,0,Housing
+38,24588,0.0,100,19,10,0,Medium,0,Family Support
+39,439219,0.0,148,26,2,3,High,0,Housing
+25,190385,0.0,247,47,1,0,High,0,Housing
+39,116360,0.66,275,49,10,1,Medium,1,Medical
+36,129616,0.0,221,36,10,0,High,0,Medical
+46,448298,0.0,211,35,1,0,High,0,Housing
+50,85552,0.0,100,19,11,0,High,0,Family Support
+66,52134,0.19,206,36,12,0,Medium,0,Basic Needs
+35,182252,0.0,232,39,1,0,High,0,Medical
+56,112754,0.0,100,19,12,0,Medium,0,Family Support
+44,158960,0.01,335,59,5,0,Medium,0,Medical
+68,25107,0.0,198,35,2,0,Low,0,Housing
+53,142067,0.77,150,28,3,0,Medium,1,Family Support
+59,6462,0.63,280,52,7,0,High,1,Medical
+66,194454,0.03,282,50,12,2,Critical,0,Medical
+65,56369,0.0,165,33,1,0,Medium,0,Family Support
+35,38062,0.01,168,30,3,0,High,0,Basic Needs
+58,93835,0.15,261,47,10,0,High,0,Medical
+63,31882,0.12,217,41,3,1,Medium,0,Family Support
+68,129474,0.0,259,49,6,0,High,0,Housing
+25,178519,0.02,325,57,12,0,Low,0,Medical
+48,154596,0.0,264,50,10,0,High,0,Housing
+45,119837,0.02,243,46,12,0,Medium,0,Education
+68,117518,0.12,160,28,7,3,Medium,0,Education
+33,28426,0.01,114,17,8,0,Medium,0,Basic Needs
+36,70258,0.1,228,42,4,1,Low,0,Family Support
+36,101816,0.0,111,20,11,0,Medium,0,Family Support
+45,128163,0.14,173,31,7,0,High,0,Family Support
+58,164385,0.01,325,57,5,1,High,0,Medical
+43,109568,0.0,164,28,3,0,Critical,0,Medical
+61,9373,0.22,164,28,4,2,High,0,Medical
+44,90441,0.0,255,45,12,0,Medium,0,Education
+56,341309,0.12,143,25,5,0,High,0,Housing
+50,27328,0.0,226,39,8,0,High,0,Medical
+34,79121,0.0,161,29,1,1,Medium,0,Family Support
+31,132988,0.0,178,32,4,0,Medium,0,Family Support
+69,405180,0.05,143,25,10,0,High,0,Housing
+53,3011,0.07,195,35,5,0,Medium,0,Education
+55,23688,0.0,226,39,8,0,Critical,0,Medical
+47,115970,0.0,261,50,5,0,High,0,Housing
+31,123460,0.05,183,30,5,0,Low,0,Medical
+55,159096,0.0,330,61,5,0,Low,0,Medical
+59,27652,0.01,274,49,12,0,Medium,0,Housing
+68,8515,0.01,211,40,12,0,Low,0,Family Support
+52,58816,0.15,176,28,4,0,Medium,0,Basic Needs
+57,113157,0.59,190,34,8,0,Medium,1,Education
+64,194500,0.05,218,41,12,0,Low,0,Medical
+31,38277,0.01,177,26,6,0,Medium,0,Basic Needs
+68,43467,0.12,247,42,1,0,Critical,0,Medical
+28,46493,0.04,168,30,3,0,Medium,0,Basic Needs
+40,104577,0.02,209,40,7,0,High,0,Family Support
+49,172919,0.05,257,46,1,3,High,0,Housing
+50,209492,0.01,207,37,1,2,High,0,Housing
+32,10553,0.06,204,41,3,2,Medium,0,Family Support
+61,54435,0.02,144,24,1,2,High,0,Education
+33,82295,0.01,225,42,5,3,Medium,0,Education
+46,97260,0.02,197,38,3,1,Medium,0,Housing
+51,236803,0.23,215,38,1,2,Critical,0,Housing
+29,4145,0.04,162,30,2,1,Medium,0,Family Support
+48,6918,0.02,200,34,4,0,Medium,0,Basic Needs
+68,79483,0.14,182,36,1,0,Medium,0,Education
+44,40059,0.0,163,29,4,2,Medium,0,Basic Needs
+68,66671,0.0,100,19,12,1,Medium,0,Family Support
+48,128777,0.22,207,37,4,0,High,0,Housing
+27,10740,0.0,139,24,6,0,Medium,0,Basic Needs
+41,44799,0.0,172,30,4,1,High,0,Family Support
+64,140335,0.0,242,40,5,1,High,0,Medical
+46,19624,0.0,144,24,7,0,Medium,0,Education
+25,428454,0.08,324,59,5,0,Critical,0,Housing
+38,29142,0.0,114,17,9,0,Low,0,Basic Needs
+60,54269,0.08,160,34,1,0,High,0,Basic Needs
+70,39675,0.15,245,42,9,0,High,0,Medical
+61,30160,0.0,193,37,3,0,High,0,Basic Needs
+29,19515,0.08,218,39,6,0,Medium,0,Basic Needs
+59,53746,0.0,168,32,2,2,Medium,0,Basic Needs
+52,405752,0.03,264,50,4,3,Critical,0,Housing
+46,22197,0.65,173,31,4,0,Medium,1,Family Support
+56,92393,0.01,161,29,7,3,Medium,0,Family Support
+28,79054,0.2,167,31,2,0,Medium,0,Family Support
+54,81572,0.01,244,47,10,0,Medium,0,Education
+64,43413,0.35,154,32,4,0,High,0,Family Support
+31,50002,0.01,229,40,8,0,High,0,Basic Needs
+31,38992,0.13,194,33,1,0,Low,0,Education
+47,36469,0.0,205,34,6,0,Medium,0,Education
+37,73046,0.0,207,33,8,0,Medium,0,Education
+64,19549,0.05,260,49,3,3,High,0,Basic Needs
+29,6176,0.01,100,19,10,0,Medium,0,Family Support
+42,148552,0.0,222,39,5,0,Medium,0,Family Support
+49,42210,0.0,211,36,9,0,Low,0,Education
+60,3285,0.74,165,33,3,0,High,1,Family Support
+63,78496,0.02,386,71,11,0,High,0,Medical
+54,17900,0.02,195,35,12,0,Medium,0,Education
+33,139314,0.3,226,43,7,0,High,0,Family Support
+66,26690,0.14,173,33,11,0,Low,0,Basic Needs
+49,127007,0.0,197,38,12,1,High,0,Housing
+46,302707,0.0,207,37,10,0,Critical,0,Housing
+26,62768,0.14,165,33,8,0,Medium,0,Family Support
+65,39774,0.05,244,47,8,0,Medium,0,Education
+59,13431,0.16,215,42,8,0,Medium,0,Family Support
+63,54197,0.2,182,36,3,0,Medium,0,Education
+50,109634,0.03,344,62,12,0,Critical,0,Medical
+61,140099,0.01,100,19,11,1,High,0,Family Support
+63,5085,0.29,181,29,8,0,Low,0,Basic Needs
+57,243935,0.0,148,26,12,1,High,0,Housing
+37,6478,0.0,157,27,9,0,High,0,Family Support
+27,44719,0.05,164,32,8,0,Medium,0,Education
+70,178147,0.07,200,33,7,0,High,0,Housing
+39,17902,0.11,303,55,4,0,High,0,Medical
+62,166981,0.01,281,50,8,0,High,0,Medical
+51,79924,0.04,155,27,1,0,High,0,Family Support
+45,280306,0.06,261,50,12,0,High,0,Housing
+39,308370,0.0,193,34,4,0,Critical,0,Housing
+44,51161,0.0,202,39,10,0,Medium,0,Housing
+49,148487,0.19,261,50,7,0,High,0,Housing
+64,2192,0.06,139,24,6,2,Medium,0,Basic Needs
+44,53672,0.0,198,37,12,0,Medium,0,Education
+33,120529,0.26,323,61,1,0,High,0,Housing
+37,79547,0.13,210,37,11,0,Medium,0,Housing
+27,82111,0.04,197,38,3,0,Medium,0,Housing
+39,42448,0.23,206,36,1,0,Medium,0,Basic Needs
+64,11213,0.0,128,23,8,0,Medium,0,Education
+49,38617,0.02,314,56,7,0,High,0,Medical
+35,52234,0.0,255,45,5,0,High,0,Education
+46,124201,0.0,202,39,5,0,High,0,Housing
+44,137382,0.0,202,39,2,0,High,0,Housing
+47,123058,0.35,226,43,9,2,High,0,Family Support
+52,5392,0.01,114,17,12,3,Medium,0,Basic Needs
+41,57074,0.0,167,27,3,0,Medium,0,Education
+44,16861,0.0,222,41,7,0,Low,0,Family Support
+36,8207,0.04,381,69,7,0,High,0,Medical
+68,21101,0.15,182,36,3,0,Medium,0,Education
+45,21568,0.0,144,24,1,0,Medium,0,Education
+27,136691,0.7,324,59,10,0,High,1,Housing
+29,70115,0.03,204,41,9,0,Medium,0,Family Support
+40,92958,0.0,281,50,7,2,Critical,0,Medical
+52,100704,0.03,110,19,1,0,Medium,0,Education
+61,204017,0.0,260,47,3,0,High,0,Housing
+61,52071,0.04,202,33,7,0,High,0,Basic Needs
+39,94484,0.0,211,36,7,0,Medium,0,Education
+62,56440,0.08,110,19,3,0,Medium,0,Education
+34,7360,0.01,176,28,3,0,Low,0,Basic Needs
+67,68563,0.0,198,37,8,0,Medium,0,Education
+59,232726,0.0,148,26,2,0,Critical,0,Housing
+40,15645,0.05,206,36,8,0,High,0,Basic Needs
+60,104344,0.04,174,29,5,0,Medium,0,Family Support
+45,51064,0.03,230,41,10,0,Medium,0,Basic Needs
+62,43327,0.0,243,46,6,0,High,0,Basic Needs
+70,7795,0.22,222,45,11,0,High,0,Basic Needs
+49,12219,0.06,235,43,2,0,Medium,0,Medical
+42,267723,0.89,261,50,12,0,High,1,Housing
+29,61756,0.04,281,50,1,2,High,0,Medical
+28,15132,0.08,231,40,3,0,Critical,0,Medical
+27,57578,0.16,164,28,5,0,Critical,0,Medical
+52,77117,0.01,248,46,12,0,High,0,Education
+38,157821,0.24,181,30,12,0,Medium,0,Medical
+66,84478,0.03,202,39,9,1,Medium,0,Housing
+48,14289,0.0,250,45,11,0,Medium,0,Basic Needs
+43,9796,0.0,160,34,6,0,High,0,Basic Needs
+67,146620,0.0,215,42,5,0,High,0,Family Support
+29,74146,0.0,110,19,11,0,Medium,0,Education
+26,116426,0.0,100,19,8,0,Low,0,Family Support
+30,84871,0.0,259,47,11,0,Low,0,Housing
+25,115872,0.07,190,34,4,1,Medium,0,Education
+31,7020,0.01,231,39,8,1,High,0,Medical
+34,261961,0.67,268,47,6,1,High,1,Housing
+48,33267,0.0,100,19,5,0,Medium,0,Family Support
+66,56109,0.0,168,32,1,0,High,0,Basic Needs
+26,3126,0.02,193,37,2,0,High,0,Basic Needs
+33,30062,0.0,229,39,12,0,High,0,Medical
+57,334943,0.06,268,47,4,0,High,0,Housing
+32,119557,0.67,155,27,5,0,Medium,1,Family Support
+62,74399,0.0,260,48,5,0,High,0,Education
+59,396622,0.01,269,51,1,0,High,0,Housing
+30,51234,0.32,197,38,6,0,Low,0,Housing
+35,28068,0.03,173,33,5,1,High,0,Basic Needs
+38,417020,0.0,264,50,1,1,High,0,Housing
+26,38903,0.0,256,46,7,1,Medium,0,Basic Needs
+43,114191,0.0,128,23,2,1,Low,0,Education
+64,8501,0.0,106,21,9,0,Medium,0,Basic Needs
+68,227923,0.01,254,46,7,0,Critical,0,Housing
+57,18979,0.29,264,45,4,3,Medium,0,Housing
+28,14045,0.0,114,17,12,0,Medium,0,Basic Needs
+29,49386,0.05,195,35,11,0,Medium,0,Education
+33,88313,0.02,178,32,11,0,High,0,Education
+64,97469,0.04,164,28,4,0,High,0,Medical
+46,44474,0.0,243,46,8,2,Medium,0,Basic Needs
+33,105443,0.78,232,45,9,0,Medium,1,Family Support
+68,322114,0.0,261,50,3,0,High,0,Housing
+43,14619,0.01,255,48,1,0,Medium,0,Basic Needs
+40,57310,0.07,150,28,3,0,High,0,Family Support
+70,15218,0.01,210,43,12,0,High,0,Basic Needs
+42,106668,0.01,316,59,6,1,Critical,0,Medical
+47,145499,0.05,202,39,9,0,High,0,Housing
+62,55355,0.09,106,21,10,1,Medium,0,Basic Needs
+45,190008,0.05,261,50,2,0,High,0,Housing
+39,42231,0.01,168,30,8,0,Medium,0,Basic Needs
+48,41365,0.01,190,34,9,1,Medium,0,Education
+32,47751,0.0,256,46,12,0,Medium,0,Basic Needs
+37,96820,0.08,207,37,12,0,Medium,0,Housing
+37,45968,0.0,225,38,3,0,High,0,Basic Needs
+58,75365,0.09,182,30,3,0,Critical,0,Medical
+49,35391,0.07,181,29,3,0,High,0,Basic Needs
+41,119739,0.65,160,28,8,0,Medium,1,Education
+48,310659,0.0,210,37,4,0,Critical,0,Housing
+69,73895,0.0,144,24,1,0,Medium,0,Education
+42,105915,0.01,245,39,9,1,Critical,0,Medical
+47,84849,0.0,211,36,11,0,Low,0,Education
+63,106587,0.05,194,33,12,0,High,0,Education
+52,58364,0.0,211,36,2,0,Medium,0,Education
+55,29724,0.03,260,47,6,0,Medium,0,Housing
+40,144742,0.0,247,47,10,1,High,0,Housing
+27,37351,0.18,173,33,5,0,High,0,Basic Needs
+35,128564,0.02,216,43,7,0,Medium,0,Family Support
+58,238592,0.03,257,46,2,2,High,0,Housing
+35,260965,0.03,197,38,8,0,High,0,Housing
+25,5259,0.01,212,35,8,0,Medium,0,Family Support
+28,33681,0.0,235,42,12,0,Medium,0,Basic Needs
+62,103618,0.2,218,41,7,0,Critical,0,Medical
+49,54058,0.17,150,28,5,2,Medium,0,Family Support
+64,110577,0.01,322,60,3,1,High,0,Housing
+32,43978,0.0,254,47,10,0,Medium,0,Basic Needs
+26,197792,0.17,143,25,10,0,High,0,Housing
+43,123536,0.0,148,26,7,2,High,0,Housing
+49,43833,0.0,222,39,1,0,Medium,0,Family Support
+59,102265,0.01,254,46,9,3,High,0,Housing
+49,159462,0.07,218,41,1,0,Low,0,Medical
+66,137930,0.0,148,26,6,0,High,0,Housing
+28,142972,0.01,214,37,10,2,High,0,Medical
+42,411360,0.61,143,25,4,0,High,1,Housing
+51,139177,0.0,277,48,2,0,Medium,0,Medical
+54,123061,0.02,154,32,1,0,Low,0,Family Support
+40,116416,0.11,155,27,9,0,Low,0,Family Support
+52,99134,0.01,226,43,7,0,Medium,0,Education
+58,16204,0.29,189,33,7,0,High,0,Basic Needs
+36,241626,0.0,210,37,8,0,High,0,Housing
+60,119915,0.11,164,32,12,0,High,0,Education
+55,59863,0.03,164,32,6,3,High,0,Education
+53,105329,0.12,232,45,7,3,Medium,0,Education
+52,16426,0.19,218,41,1,0,High,0,Medical
+54,44110,0.0,250,45,1,0,High,0,Basic Needs
+27,9018,0.02,165,33,7,0,Medium,0,Family Support
+60,22151,0.0,206,34,9,0,Medium,0,Housing
+53,6261,0.67,244,47,12,0,Medium,1,Education
+68,70033,0.01,178,32,1,0,High,0,Family Support
+42,74954,0.0,164,32,10,0,High,0,Education
+39,49291,0.66,110,19,12,0,Low,1,Education
+40,64965,0.11,160,28,7,0,Medium,0,Education
+66,91399,0.02,217,38,10,0,High,0,Family Support
+50,41810,0.05,257,46,8,0,Medium,0,Housing
+45,24633,0.0,168,30,12,0,High,0,Basic Needs
+27,42308,0.0,144,24,6,1,Medium,0,Education
+68,111051,0.0,128,23,4,0,High,0,Education
+61,225294,0.24,207,37,7,2,High,0,Housing
+37,24943,0.02,217,42,6,0,Medium,0,Basic Needs
+45,95182,0.67,237,44,7,0,Critical,1,Medical
+51,146166,0.0,261,50,7,2,High,0,Housing
+41,30071,0.0,198,35,9,1,Medium,0,Housing
+52,339254,0.0,148,26,11,0,High,0,Housing
+33,112778,0.02,209,40,8,2,Medium,0,Family Support
+44,79481,0.05,216,37,11,0,Medium,0,Family Support
+40,126569,0.0,221,44,7,0,Medium,0,Family Support
+37,95700,0.68,177,31,4,0,Medium,1,Education
+55,183135,0.11,252,48,1,0,High,0,Housing
+38,113343,0.05,198,37,8,1,Medium,0,Education
+45,30517,0.0,193,37,9,0,Medium,0,Basic Needs
+64,51910,0.0,259,47,4,0,Medium,0,Education
+56,58848,0.03,222,41,6,0,High,0,Family Support
+63,58927,0.0,182,30,5,0,Medium,0,Medical
+57,303075,0.02,318,58,12,0,Critical,0,Housing
+25,25158,0.02,194,33,7,0,Medium,0,Education
+65,67274,0.02,164,28,10,0,Medium,0,Medical
+57,130426,0.01,211,40,8,1,Medium,0,Family Support
+52,12231,0.04,268,50,11,2,High,0,Medical
+66,115183,0.06,302,55,11,0,High,0,Medical
+53,35494,0.39,231,40,12,0,Critical,0,Medical
+53,26396,0.05,217,42,7,0,Medium,0,Basic Needs
+33,193058,0.18,275,49,5,0,High,0,Medical
+68,233154,0.06,205,36,2,0,High,0,Housing
+41,27447,0.02,210,43,6,1,Medium,0,Basic Needs
+42,350909,0.0,148,26,4,1,High,0,Housing
+66,18112,0.01,215,42,7,0,Medium,0,Family Support
+59,44124,0.13,217,41,5,0,Low,0,Family Support
+55,36460,0.1,114,17,11,0,High,0,Basic Needs
+63,30906,0.01,205,36,9,0,Medium,0,Family Support
+67,5467,0.12,217,38,8,0,Low,0,Family Support
+31,101081,0.0,182,30,6,0,High,0,Medical
+57,290542,0.0,193,34,12,1,High,0,Housing
+52,35125,0.08,272,47,7,0,Critical,0,Medical
+42,84388,0.03,165,33,12,0,Medium,0,Family Support
+46,92139,0.02,221,40,11,0,High,0,Education
+31,12140,0.11,164,32,11,0,Low,0,Education
+36,26880,0.02,255,45,12,0,Medium,0,Education
+60,87300,0.03,275,49,7,2,Medium,0,Medical
+62,83177,0.04,174,29,7,0,Medium,0,Family Support
+54,113661,0.13,143,25,6,0,High,0,Housing
+52,34725,0.01,172,30,9,0,High,0,Family Support
+31,430190,0.56,324,59,4,0,High,1,Housing
+35,75449,0.0,144,24,5,2,Medium,0,Education
+57,93175,0.03,285,52,8,0,High,0,Medical
+27,83664,0.0,273,47,6,0,Critical,0,Medical
+37,75036,0.03,281,50,4,0,High,0,Medical
+63,93957,0.0,212,35,4,3,Medium,0,Family Support
+42,93012,0.0,323,61,5,0,Medium,0,Housing
+39,100236,0.0,178,32,2,0,Medium,0,Family Support
+40,53294,0.0,259,47,11,0,Medium,0,Education
+64,128725,0.01,222,39,11,0,High,0,Family Support
+50,35663,0.01,168,28,10,0,Medium,0,Family Support
+43,44274,0.25,181,29,7,0,High,0,Basic Needs
+66,118568,0.07,317,56,10,0,Critical,0,Medical
+53,96977,0.63,154,32,8,0,Low,1,Family Support
+67,58584,0.11,225,38,5,0,Critical,0,Medical
+26,56546,0.02,164,32,12,0,High,0,Education
+29,296573,0.0,207,37,10,1,High,0,Housing
+56,101668,0.05,165,33,6,0,High,0,Family Support
+51,42142,0.65,252,48,12,1,Medium,1,Housing
+49,44501,0.02,139,24,4,0,Low,0,Basic Needs
+58,5196,0.13,223,43,4,2,Medium,0,Basic Needs
+63,97205,0.0,201,32,5,2,Medium,0,Education
+32,98671,0.07,237,44,8,0,High,0,Medical
+27,148298,0.0,154,32,11,0,High,0,Family Support
+43,46815,0.0,173,28,3,0,Medium,0,Education
+54,162530,0.0,202,39,1,0,High,0,Housing
+44,52235,0.0,168,30,4,0,High,0,Basic Needs
+51,22662,0.01,225,42,5,0,Medium,0,Education
+36,20056,0.0,128,23,7,1,Medium,0,Education
+29,83652,0.63,232,45,10,0,Medium,1,Family Support
+30,34924,0.05,114,17,4,0,High,0,Basic Needs
+57,28762,0.01,160,34,9,0,Medium,0,Basic Needs
+70,48662,0.0,156,30,3,1,Medium,0,Basic Needs
+36,275245,0.03,202,39,8,0,High,0,Housing
+47,144443,0.15,302,55,7,0,Critical,0,Medical
+57,21610,0.0,200,34,6,0,Low,0,Basic Needs
+57,202353,0.29,143,25,2,0,High,0,Housing
+30,13007,0.02,227,41,9,0,Medium,0,Education
+47,72104,0.0,128,23,10,0,Medium,0,Education
+70,22916,0.0,165,33,3,0,High,0,Family Support
+64,57955,0.01,164,26,2,0,High,0,Basic Needs
+29,54565,0.0,276,47,5,1,High,0,Medical
+28,8658,0.44,202,33,3,1,High,0,Basic Needs
+66,47910,0.2,264,45,6,0,Medium,0,Housing
+51,84450,0.13,254,42,12,0,Critical,0,Medical
+36,21528,0.0,110,19,7,0,Medium,0,Education
+26,103255,0.02,154,32,11,3,Medium,0,Family Support
+50,81031,0.63,264,50,3,0,Medium,1,Housing
+34,74038,0.02,111,20,9,0,High,0,Family Support
+33,9443,0.0,255,45,12,0,Medium,0,Education
+33,148883,0.0,270,50,8,0,Medium,0,Family Support
+70,138268,0.0,209,40,7,0,High,0,Family Support
+44,123267,0.01,164,28,7,2,Medium,0,Medical
+50,27580,0.05,154,32,7,0,Medium,0,Family Support
+49,65299,0.0,212,35,2,1,Medium,0,Family Support
+25,323869,0.22,143,25,5,1,Critical,0,Housing
+45,97143,0.01,178,32,10,1,Medium,0,Education
+51,89869,0.0,209,40,4,3,Medium,0,Family Support
+69,26088,0.0,177,26,12,1,Medium,0,Basic Needs
+38,284609,0.08,209,36,6,0,Critical,0,Housing
+60,19616,0.0,164,26,5,1,High,0,Basic Needs
+46,68922,0.01,160,28,12,0,High,0,Education
+35,33884,0.1,226,43,11,0,High,0,Family Support
+52,83134,0.04,249,48,7,0,Low,0,Education
+32,12866,0.0,178,32,2,1,Medium,0,Family Support
+67,230068,0.03,257,46,10,0,High,0,Housing
+38,150109,0.0,315,59,1,0,Medium,0,Medical
+56,23384,0.09,217,42,5,0,Low,0,Basic Needs
+50,34490,0.04,139,24,3,0,Medium,0,Basic Needs
+69,96494,0.08,181,30,7,1,Medium,0,Medical
+66,76017,0.0,144,24,5,0,High,0,Education
+48,70108,0.0,182,36,5,1,Medium,0,Education
+31,122559,0.0,163,28,9,0,Medium,0,Family Support
+68,340012,0.61,269,48,10,0,High,1,Housing
+45,33549,0.0,168,32,1,0,High,0,Basic Needs
+67,54474,0.0,139,24,10,0,Low,0,Basic Needs
+40,24660,0.0,227,46,4,1,Medium,0,Basic Needs
+64,444206,0.0,148,26,12,2,High,0,Housing
+50,32644,0.0,168,30,4,0,High,0,Basic Needs
+62,95180,0.12,285,53,9,0,Critical,0,Medical
+65,110621,0.01,217,38,3,1,High,0,Family Support
+70,131225,0.0,209,40,12,0,High,0,Family Support
+48,34440,0.0,198,35,3,2,Medium,0,Housing
+27,174398,0.01,214,37,5,0,High,0,Medical
+32,39899,0.0,164,26,5,0,Medium,0,Basic Needs
+68,40951,0.64,260,49,7,0,Low,1,Basic Needs
+37,114384,0.0,258,48,1,0,High,0,Housing
+70,232079,0.0,261,50,8,0,High,0,Housing
+39,100618,0.71,330,55,10,0,High,1,Medical
+62,434388,0.06,207,37,2,0,Critical,0,Housing
+29,102236,0.27,261,50,6,3,High,0,Housing
+45,85467,0.07,189,33,11,2,High,0,Education
+69,121002,0.04,111,20,4,1,Medium,0,Family Support
+31,20314,0.01,255,48,9,3,High,0,Basic Needs
+36,107017,0.07,337,59,1,0,Critical,0,Medical
+67,31418,0.0,209,40,10,0,Medium,0,Family Support
+36,15956,0.15,268,50,5,3,Medium,0,Medical
+66,149586,0.03,205,34,11,3,High,0,Housing
+61,66772,0.0,261,46,11,0,High,0,Education
+48,52238,0.01,178,32,7,1,High,0,Family Support
+33,105110,0.17,264,45,7,0,High,0,Housing
+25,82099,0.08,198,37,4,0,Medium,0,Education
+48,27140,0.14,297,53,9,0,Critical,0,Medical
+44,416162,0.24,261,50,2,3,High,0,Housing
+56,10032,0.03,205,36,4,1,Low,0,Family Support
+30,51857,0.01,229,40,11,0,Medium,0,Basic Needs
+67,2615,0.0,167,31,7,0,Medium,0,Basic Needs
+55,133383,0.08,215,38,3,0,High,0,Housing
+25,72904,0.66,177,31,1,0,High,1,Education
+55,105164,0.0,128,23,10,0,High,0,Education
+44,95037,0.14,150,28,8,0,High,0,Family Support
+68,5730,0.12,227,44,11,1,Medium,0,Family Support
+70,139158,0.02,100,19,3,0,Low,0,Family Support
+54,15442,0.0,114,17,10,0,Low,0,Basic Needs
+30,51760,0.01,156,30,5,1,Low,0,Basic Needs
+35,42203,0.06,207,37,3,0,Medium,0,Housing
+41,109550,0.14,236,43,11,0,Critical,0,Medical
+57,7326,0.61,232,45,7,0,Medium,1,Education
+58,97924,0.0,100,19,6,2,Medium,0,Family Support
+52,122081,0.59,299,52,10,0,Critical,1,Medical
+30,90466,0.04,179,30,10,0,High,0,Medical
+55,36039,0.02,139,24,9,0,High,0,Basic Needs
+32,39842,0.01,227,46,7,1,High,0,Basic Needs
+56,44338,0.0,276,49,1,0,High,0,Medical
+29,84200,0.0,164,32,3,0,Low,0,Education
+47,122261,0.0,297,51,5,0,Medium,0,Medical
+37,69543,0.0,144,24,9,0,Medium,0,Education
+63,66625,0.0,128,23,2,0,Medium,0,Education
+56,131717,0.0,385,69,12,0,Critical,0,Medical
+39,61977,0.61,191,32,1,0,Medium,1,Education
+29,108129,0.0,171,29,11,0,Low,0,Education
+44,67448,0.1,298,52,10,1,Critical,0,Medical
+53,116834,0.03,215,42,12,0,Low,0,Family Support
+56,101668,0.23,167,31,7,0,Medium,0,Family Support
+61,64347,0.01,164,28,5,2,Critical,0,Medical
+29,66298,0.1,189,33,4,0,High,0,Education
+27,33268,0.0,110,19,1,0,Low,0,Education
+40,17896,0.01,198,37,8,0,Medium,0,Education
+65,35997,0.06,216,37,11,0,High,0,Family Support
+40,87683,0.0,100,19,11,0,Low,0,Family Support
+35,403892,0.0,202,39,6,0,Critical,0,Housing
+28,111582,0.39,227,37,2,0,Critical,0,Medical
+36,167330,0.0,226,39,9,0,Medium,0,Medical
+37,107921,0.0,218,36,10,0,Medium,0,Family Support
+60,118876,0.0,260,47,5,0,High,0,Housing
+39,94968,0.02,202,39,5,0,Medium,0,Housing
+47,109794,0.02,398,72,1,0,Low,0,Medical
+28,37966,0.01,227,41,11,0,Medium,0,Education
+62,115178,0.06,194,33,2,3,Low,0,Education
+70,83116,0.0,144,24,5,2,Low,0,Education
+65,229737,0.67,207,37,5,0,High,1,Housing
+40,63057,0.0,259,47,8,0,Low,0,Education
+54,46947,0.0,168,30,4,0,High,0,Basic Needs
+51,197067,0.0,214,37,4,0,Critical,0,Medical
+49,9463,0.0,164,26,7,2,High,0,Basic Needs
+49,150962,0.01,321,55,10,3,Low,0,Medical
+43,125088,0.0,237,38,4,0,Low,0,Medical
+50,413582,0.15,143,25,11,2,Critical,0,Housing
+61,26832,0.1,114,17,9,2,High,0,Basic Needs
+63,59323,0.02,330,61,6,2,Critical,0,Medical
+58,117334,0.16,331,58,6,0,Critical,0,Medical
+55,12543,0.29,189,33,7,1,High,0,Basic Needs
+45,47839,0.02,110,19,5,0,Low,0,Education
+50,287854,0.06,269,51,9,0,High,0,Housing
+62,46258,0.07,235,43,11,3,High,0,Medical
+51,42579,0.02,171,25,9,0,Medium,0,Basic Needs
+28,7896,0.01,198,37,3,0,Low,0,Education
+30,198089,0.02,232,39,1,1,High,0,Medical
+32,38315,0.14,225,38,9,0,Critical,0,Medical
+55,149613,0.04,291,51,5,0,Critical,0,Medical
+29,64526,0.09,266,48,8,1,High,0,Family Support
+32,41602,0.01,225,38,5,1,Medium,0,Basic Needs
+33,177432,0.81,225,38,12,0,Critical,1,Medical
+30,140179,0.0,275,49,2,1,High,0,Medical
+65,365495,0.02,205,34,1,0,High,0,Housing
+43,32066,0.0,256,46,9,0,High,0,Basic Needs
+34,41298,0.01,254,47,5,0,High,0,Basic Needs
+53,63206,0.2,228,42,5,0,Medium,0,Family Support
+25,12998,0.02,163,29,8,0,High,0,Basic Needs
+30,162957,0.2,231,40,7,1,Critical,0,Medical
+58,42362,0.0,128,23,10,0,Medium,0,Education
+40,3661,0.01,160,34,1,1,Medium,0,Basic Needs
+37,7846,0.01,167,27,8,0,Low,0,Education
+35,14289,0.0,128,23,7,0,Medium,0,Education
+69,62981,0.0,271,51,10,0,High,0,Family Support
+69,52215,0.04,279,51,7,0,High,0,Medical
+54,58954,0.0,160,34,6,0,Low,0,Basic Needs
+49,43221,0.07,111,20,9,0,Low,0,Family Support
+37,334269,0.0,148,26,7,0,High,0,Housing
+32,27466,0.01,168,32,3,0,Medium,0,Basic Needs
+38,47479,0.0,167,31,11,0,Medium,0,Basic Needs
+40,264265,0.02,207,37,12,0,Critical,0,Housing
+64,6858,0.04,221,36,1,0,Critical,0,Medical
+37,168443,0.01,221,36,11,3,High,0,Medical
+61,114764,0.16,190,34,7,2,Low,0,Education
+48,51808,0.66,264,45,11,0,Medium,1,Housing
+50,105769,0.06,164,28,2,0,Critical,0,Medical
+52,54617,0.06,218,41,6,1,Medium,0,Medical
+39,41677,0.02,272,48,9,0,High,0,Medical
+62,87116,0.01,205,36,3,0,Medium,0,Family Support
+52,299231,0.01,254,46,8,0,High,0,Housing
+60,90541,0.26,173,31,6,0,Medium,0,Family Support
+58,42331,0.0,264,50,3,0,Medium,0,Housing
+36,223056,0.01,260,47,7,0,High,0,Housing
+56,122373,0.01,209,40,10,0,High,0,Family Support
+53,53530,0.0,148,26,2,0,Medium,0,Housing
+66,69564,0.01,311,59,2,0,Low,0,Housing
+40,138212,0.05,331,55,12,0,Critical,0,Medical
+55,290127,0.1,328,62,4,0,Critical,0,Housing
+25,10899,0.09,299,55,10,0,High,0,Medical
+65,42940,0.0,168,32,6,1,Medium,0,Basic Needs
