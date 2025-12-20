@@ -3,16 +3,14 @@ import Story from "@/Components/Story";
 import Mission from "@/Components/Mission";*/
 import Donate from "@/Components/Donate/Donate";
 import Categories from "@/Components/Donate/Categories";
-import Med from "@/Components/Donate/Medexample";
-import Etud from "@/Components/Donate/Etudexample";
+import Featured from "@/Components/Donate/Featured";
 import More from "@/Components/Donate/More"
 
 export default function SignUpPage() {
     return <div>
         <Donate />
         <Categories />
-        <Med />
-        <Etud />
+        <Featured />
         <More />
         {/*<Mission />
         <Story />
