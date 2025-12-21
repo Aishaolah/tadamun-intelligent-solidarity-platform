@@ -1,10 +1,9 @@
-//import SignUp from '@/Components/Signup/SignUp';
-import Charity from '@/Components/Signup/Charity';
+import SignUp from '@/Components/Signup/SignUp';
 
 export default function Signin() {
     return (
         <>
-            <Charity />
+            <SignUp />
         </>
     )
 }

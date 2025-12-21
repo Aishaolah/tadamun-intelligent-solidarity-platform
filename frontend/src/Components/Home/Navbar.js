@@ -41,7 +41,7 @@ export default function Navbar() {
 
       {/* RIGHT SIDE */}
       <div className="flex gap-5">
-        <Link href="/choose">
+        <Link href="/raise/choose">
           <button className="text-[#1E3231] bg-[#EFEBE3] border border-[#1E3231]/50 rounded-sm px-5 py-2 hover:bg-[#A0E5AD] hover:border-transparent hover:shadow-lg transition duration-500">
             Sign up
           </button>
