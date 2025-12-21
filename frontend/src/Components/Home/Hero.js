@@ -19,9 +19,7 @@ function Home() {
                 </Link>
                 </div>
             </div>
-            <div>
-                <Image className='mr-10 lg:w-145 transition duration-100 hover:scale-102' src='/photos1.svg' alt='tadamun hero photo' width={300} height={300} />
-            </div>
+            {/* image removed as requested */}
             </div>
         </div>
     )

@@ -8,30 +8,25 @@ function Reviews(){
 
     const review=[
         {
-            msg:"For someone that is not very 'techy' like me, Donately made my job easy. It is extremely user and donor friendly.",
-            name:"Sarah J.",
-            from:"New York, USA"
+            msg:"Tadamun helped our neighborhood raise funds quickly and transparently — updates were clear and reliable.",
+            name:"Amina B.",
+            from:"Algiers, Algeria"
         },
         {
-            msg:"For someone that is not very 'techy' like me, Donately made my job easy. It is extremely user and donor friendly.",
-            name:"Sarah J.",
-            from:"New York, USA"
+            msg:"The platform is simple to use and made it easy for donors to support local families in need.",
+            name:"Rachid L.",
+            from:"Oran, Algeria"
         },
         {
-            msg:"For someone that is not very 'techy' like me, Donately made my job easy. It is extremely user and donor friendly.",
-            name:"Sarah J.",
-            from:"New York, USA"
+            msg:"Campaign management and communication were excellent — supporters received timely progress reports.",
+            name:"Noura H.",
+            from:"Constantine, Algeria"
         },
         {
-            msg:"For someone that is not very 'techy' like me, Donately made my job easy. It is extremely user and donor friendly.",
-            name:"Sarah J.",
-            from:"New York, USA"
-        },
-        {
-            msg:"For someone that is not very 'techy' like me, Donately made my job easy. It is extremely user and donor friendly.",
-            name:"Sarah J.",
-            from:"New York, USA"
-        },
+            msg:"A trustworthy place to share a story and get help for urgent family needs.",
+            name:"Karim S.",
+            from:"Annaba, Algeria"
+        }
     ]
 
     const settings = {
