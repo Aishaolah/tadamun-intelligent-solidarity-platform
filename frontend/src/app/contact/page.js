@@ -1,9 +1,7 @@
-import WhichUser from "@/Components/WhichUser";
-import WhoDonater from "@/Components/WhoDonater";
+import Profile from "@/Components/Profile/Profile";
 
-
-export default function AboutPage() {
+export default function SignUpPage() {
     return <div>
-        <WhoDonater />
-        <WhichUser />
-    </div>}
+        <Profile />
+    </div>
+}

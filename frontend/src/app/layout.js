@@ -1,10 +1,11 @@
-import { Geist, Geist_Mono } from "next/font/google";
+//import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import 'leaflet/dist/leaflet.css';
+/*import 'leaflet/dist/leaflet.css';*/
 import HomePage from "./home/page";
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/Components/Home/Navbar";
 
-const geistSans = Geist({
+
+/*const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
@@ -12,7 +13,7 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
+});*/
 
 export const metadata = {
   title: "Create Next App",
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+      <Navbar />
         <main>{children}</main>
       </body>
     </html>

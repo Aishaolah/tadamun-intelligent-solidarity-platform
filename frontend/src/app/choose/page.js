@@ -1,4 +1,4 @@
-import WhichUser from "@/Components/WhichUser";
+import WhichUser from "@/Components/Choose/WhichUser";
 
 export default function SignUpPage() {
     return <WhichUser />;
