@@ -1,93 +1,155 @@
-// pages/signup/needy.tsx
-import React from "react";
+"use client";
 
-const NeedySignup = () => {
+import { useState } from "react";
+
+export default function NeedySignup() {
+    const [formData, setFormData] = useState({
+        name: "",
+        surname: "",
+        email: "",
+        phone: "",
+        address: "",
+        password: "",
+    });
+
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState("");
+    const [success, setSuccess] = useState("");
+
+    const handleChange = (e) => {
+        setFormData({
+        ...formData,
+        [e.target.name]: e.target.value,
+        });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setLoading(true);
+        setError("");
+        setSuccess("");
+
+        try {
+        const res = await fetch("http://localhost:3001/api/needy", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+        });
+
+        const data = await res.json();
+
+        if (!res.ok) {
+            setError(data.message || "Signup failed");
+            return;
+        }
+
+        setSuccess("Account created successfully 🎉");
+        setFormData({
+            name: "",
+            surname: "",
+            email: "",
+            phone: "",
+            address: "",
+            password: "",
+        });
+        } catch (err) {
+        setError("Something went wrong");
+        } finally {
+        setLoading(false);
+        }
+    };
+
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
         <div className="max-w-md w-full bg-white rounded-2xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-center mb-6">Needy Signup</h2>
-            
-            <form className="space-y-4">
-            {/* Full Name */}
-            <div>
-                <label className="block text-gray-700 font-medium mb-1" htmlFor="name">
-                Full Name
-                </label>
+            <h2 className="text-2xl font-bold text-center mb-6">
+            Needy Signup
+            </h2>
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="flex gap-4">
                 <input
                 type="text"
-                id="name"
-                placeholder="Enter your full name"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
+                />
+
+                <input
+                type="text"
+                name="surname"
+                placeholder="Surname"
+                value={formData.surname}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
                 />
             </div>
 
-            {/* Email */}
-            <div>
-                <label className="block text-gray-700 font-medium mb-1" htmlFor="email">
-                Email
-                </label>
-                <input
+            <input
                 type="email"
-                id="email"
-                placeholder="Enter email"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                />
-            </div>
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
+            />
 
-            {/* Password */}
-            <div>
-                <label className="block text-gray-700 font-medium mb-1" htmlFor="password">
-                Password
-                </label>
-                <input
-                type="password"
-                id="password"
-                placeholder="Enter password"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                />
-            </div>
-
-            {/* Address */}
-            <div>
-                <label className="block text-gray-700 font-medium mb-1" htmlFor="address">
-                Address
-                </label>
-                <input
-                type="text"
-                id="address"
-                placeholder="Enter your address"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                />
-            </div>
-
-            {/* Phone Number */}
-            <div>
-                <label className="block text-gray-700 font-medium mb-1" htmlFor="phone">
-                Phone Number
-                </label>
-                <input
+            <input
                 type="tel"
-                id="phone"
-                placeholder="Enter phone number"
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                />
-            </div>
+                name="phone"
+                placeholder="Phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
+            />
 
-            {/* Submit Button */}
+            <input
+                type="text"
+                name="address"
+                placeholder="Address"
+                value={formData.address}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
+            />
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                value={formData.password}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-lg"
+            />
+
+            {error && (
+                <p className="text-red-500 text-sm text-center">
+                {error}
+                </p>
+            )}
+
+            {success && (
+                <p className="text-green-600 text-sm text-center">
+                {success}
+                </p>
+            )}
+
             <button
                 type="submit"
-                className="w-full py-2 mt-4 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg transition"
+                disabled={loading}
+                className="w-full py-2 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg"
             >
-                Sign Up
+                {loading ? "Signing up..." : "Sign Up"}
             </button>
             </form>
-
-            <p className="text-sm text-gray-500 text-center mt-4">
-            Already have an account? <a href="/login" className="text-yellow-500 hover:underline">Login</a>
-            </p>
         </div>
         </div>
     );
-    };
-
-export default NeedySignup;
+}
