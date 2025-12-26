@@ -1,10 +1,10 @@
 //import SignUp from '@/Components/Signup/SignUp';
-import Charity from '@/Components/Signup/Charity';
+import Donor from '@/Components/Signup/Doner';
 
 export default function Signin() {
     return (
         <>
-            <Charity />
+            <Donor />
         </>
     )
 }

@@ -1,7 +1,9 @@
-import Profile from "@/Components/Profile/Profile";
+import MedicalFond from "@/Components/Education/EducationFond";
+import DiscoverMed from "@/Components/Medical/DiscoverMed";
 
 export default function SignUpPage() {
     return <div>
-        <Profile />
+        <DiscoverMed />
+        <MedicalFond />
     </div>
 }

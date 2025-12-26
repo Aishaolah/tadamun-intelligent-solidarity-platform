@@ -5,6 +5,7 @@ import { auth, db, googleProvider, facebookProvider, signInWithPopup } from "../
 import { doc, setDoc } from "firebase/firestore";
 
 export default function SignUp() {
+    
     const handleGoogleSignIn = async () => {
         try {
         const result = await signInWithPopup(auth, googleProvider);
@@ -38,12 +39,8 @@ export default function SignUp() {
     };
 
     return (
-        <div
-        className="flex justify-center items-center"
-        style={{ width: "1280px", height: "832px", background: "#EFEBE3", margin: "0 auto" }}
-        >
-        <div
-            className="rounded-l-[25px] transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:shadow-2xl"
+        <div className="mt-20 mb-20 flex justify-center items-center">
+        <div className="rounded-l-[25px] transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:shadow-2xl"
             style={{
             width: "481px",
             height: "739px",
@@ -65,11 +62,19 @@ export default function SignUp() {
             border: "1px solid rgba(255, 255, 255, 0.2)",
             }}
         >
-            <h2 style={{ color: "#EFEBE3", fontFamily: "Aref Ruqaa", fontSize: "40px", fontWeight: 700 }}>
-            sign up
+            <h2 className="text-[#EFEBE3] text-4xl">
+            SIGN UP
             </h2>
 
             <form className="flex flex-col gap-4 items-center">
+            <div className="flex flex-col md:flex-row items-center w-full gap-2">
+                <label className="text-[#EFEBE3] font-poppins text-lg mr-4">I am a:</label>
+                <select className="px-4 py-3 w-[200px] h-[52px] rounded-[15px] border cursor-pointer transition-all duration-300 ease-in-out hover:shadow-md focus:shadow-lg focus:outline-none" style={{ border: "1px solid #909498", background: "#EFEBE3", color: "#1E3231BF", fontWeight: 500, fontFamily: "Poppins", fontSize: "15px" }}>
+                    <option value="donor">Donor</option>
+                    <option value="needy">Needy</option>
+                    <option value="company">Company</option>
+                </select>
+            </div>
             <input type="text" placeholder="FULL NAME" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
             <input type="email" placeholder="EMAIL" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
             <input type="password" placeholder="password" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
