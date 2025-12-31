@@ -39,8 +39,8 @@ export default function SignUp() {
     };
 
     return (
-        <div className="mt-20 mb-20 flex justify-center items-center">
-        <div className="rounded-l-[25px] transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:shadow-2xl"
+        <div className="mt-10 md:mt-20 mb-10 md:mb-20 flex justify-center items-center px-4">
+        <div className="hidden md:block rounded-l-[25px] transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:shadow-2xl"
             style={{
             width: "481px",
             height: "739px",
@@ -51,10 +51,12 @@ export default function SignUp() {
         ></div>
 
         <div
-            className="flex flex-col justify-center items-center gap-6 rounded-r-[25px]"
+            className="flex flex-col justify-center items-center gap-4 md:gap-6 rounded-r-[25px] px-6 md:px-0 py-10 md:py-0 w-full md:w-auto"
             style={{
-            width: "517px",
-            height: "739px",
+            minWidth: "100%",
+            maxWidth: "517px",
+            minHeight: "auto",
+            mdHeight: "739px",
             background: "rgba(30, 50, 49, 0.75)",
             flexShrink: 0,
             boxShadow: "0px 4px 30px rgba(0, 0, 0, 0.25)",
@@ -62,34 +64,34 @@ export default function SignUp() {
             border: "1px solid rgba(255, 255, 255, 0.2)",
             }}
         >
-            <h2 className="text-[#EFEBE3] text-4xl">
+            <h2 className="text-[#EFEBE3] text-3xl md:text-4xl">
             SIGN UP
             </h2>
 
-            <form className="flex flex-col gap-4 items-center">
+            <form className="flex flex-col gap-3 md:gap-4 items-center w-full">
             <div className="flex flex-col md:flex-row items-center w-full gap-2">
-                <label className="text-[#EFEBE3] font-poppins text-lg mr-4">I am a:</label>
-                <select className="px-4 py-3 w-[200px] h-[52px] rounded-[15px] border cursor-pointer transition-all duration-300 ease-in-out hover:shadow-md focus:shadow-lg focus:outline-none" style={{ border: "1px solid #909498", background: "#EFEBE3", color: "#1E3231BF", fontWeight: 500, fontFamily: "Poppins", fontSize: "15px" }}>
+                <label className="text-[#EFEBE3] font-poppins text-base md:text-lg">I am a:</label>
+                <select className="px-4 py-3 w-full md:w-[200px] h-[52px] rounded-[15px] border cursor-pointer transition-all duration-300 ease-in-out hover:shadow-md focus:shadow-lg focus:outline-none text-sm md:text-base" style={{ border: "1px solid #909498", background: "#EFEBE3", color: "#1E3231BF", fontWeight: 500, fontFamily: "Poppins", fontSize: "15px" }}>
                     <option value="donor">Donor</option>
                     <option value="needy">Needy</option>
                     <option value="company">Company</option>
                 </select>
             </div>
-            <input type="text" placeholder="FULL NAME" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
-            <input type="email" placeholder="EMAIL" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
-            <input type="password" placeholder="password" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
-            <input type="password" placeholder="confirm password" className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border" style={{ border: "1px solid #909498", background: "#FFF" }} />
-            <select className="px-4 py-3 w-[463px] h-[52px] rounded-[15px] border cursor-pointer transition-all duration-300 ease-in-out shadow-sm hover:shadow-md focus:shadow-lg focus:outline-none" style={{ border: "1px solid #909498", background: "#EFEBE3", color: "#1E3231BF", fontWeight: 500, fontFamily: "Poppins", fontSize: "15px" }}>
+            <input type="text" placeholder="FULL NAME" className="px-4 py-3 w-full md:w-[463px] h-[52px] rounded-[15px] border text-sm md:text-base" style={{ border: "1px solid #909498", background: "#FFF" }} />
+            <input type="email" placeholder="EMAIL" className="px-4 py-3 w-full md:w-[463px] h-[52px] rounded-[15px] border text-sm md:text-base" style={{ border: "1px solid #909498", background: "#FFF" }} />
+            <input type="password" placeholder="password" className="px-4 py-3 w-full md:w-[463px] h-[52px] rounded-[15px] border text-sm md:text-base" style={{ border: "1px solid #909498", background: "#FFF" }} />
+            <input type="password" placeholder="confirm password" className="px-4 py-3 w-full md:w-[463px] h-[52px] rounded-[15px] border text-sm md:text-base" style={{ border: "1px solid #909498", background: "#FFF" }} />
+            <select className="px-4 py-3 w-full md:w-[463px] h-[52px] rounded-[15px] border cursor-pointer transition-all duration-300 ease-in-out shadow-sm hover:shadow-md focus:shadow-lg focus:outline-none text-sm md:text-base" style={{ border: "1px solid #909498", background: "#EFEBE3", color: "#1E3231BF", fontWeight: 500, fontFamily: "Poppins", fontSize: "15px" }}>
                 <option value="donor">Donor</option>
                 <option value="needy">Needy</option>
                 <option value="company">Company</option>
             </select>
-            <button type="submit" className="mt-4 w-[205px] h-[53px] rounded-[30px] border text-white" style={{ border: "1px solid #EFEBE3", background: "#52605E", fontFamily: "Poppins", fontSize: "15px", fontWeight: 700 }}>
+            <button type="submit" className="mt-2 md:mt-4 w-full md:w-[205px] h-[53px] rounded-[30px] border text-white text-sm md:text-base" style={{ border: "1px solid #EFEBE3", background: "#52605E", fontFamily: "Poppins", fontSize: "15px", fontWeight: 700 }}>
                 Create Account
             </button>
             </form>
 
-            <div className="flex flex-col items-center mt-4">
+            <div className="flex flex-col items-center mt-2 md:mt-4 w-full">
             <p style={{ color: "#EFEBE3", fontSize: "14px", marginBottom: "10px" }}>or sign up with</p>
             <div className="flex gap-4">
                 <button onClick={handleGoogleSignIn} className="flex items-center justify-center w-[45px] h-[45px] rounded-full bg-white hover:scale-105 transition" style={{ boxShadow: "0 2px 6px rgba(0,0,0,0.25)" }}>

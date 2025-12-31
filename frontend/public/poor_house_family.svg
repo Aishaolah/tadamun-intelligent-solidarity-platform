@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#E6F7FF"/>
+      <stop offset="100%" stop-color="#F3FAFF"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#EFE2D6"/>
+      <stop offset="100%" stop-color="#E6D3BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#fff" rx="12"/>
+  <rect x="0" y="0" width="100%" height="55%" fill="url(#sky)"/>
+  <rect x="0" y="55%" width="100%" height="45%" fill="url(#ground)"/>
+
+  <!-- Distant mountains -->
+  <g transform="translate(80,200)" opacity="0.35">
+    <path d="M0 200 L120 60 L240 200 Z" fill="#C9B29B" />
+    <path d="M180 200 L300 90 L420 200 Z" fill="#CBBCA8" />
+  </g>
+
+  <!-- Poor house -->
+  <g transform="translate(260,260)">
+    <rect x="0" y="80" width="420" height="180" rx="6" fill="#A86F4A" stroke="#7b4f36" stroke-width="4" />
+    <polygon points="-20,90 210,-10 440,90" fill="#8C4B2A" stroke="#7b4f36" stroke-width="4" />
+    <rect x="40" y="130" width="90" height="130" fill="#6b3f2a"/>
+    <rect x="290" y="150" width="80" height="80" fill="#6b3f2a"/>
+    <path d="M120 260 Q210 320 320 260" stroke="#5a3a2a" stroke-width="6" fill="none" opacity="0.6" />
+    <!-- cracks and wear -->
+    <path d="M30 160 L70 170" stroke="#5a3a2a" stroke-width="3"/>
+    <path d="M360 190 L390 200" stroke="#5a3a2a" stroke-width="3"/>
+  </g>
+
+  <!-- Family figures (stylized) -->
+  <g transform="translate(740,360)">
+    <!-- Adult 1 -->
+    <circle cx="-40" cy="-10" r="24" fill="#f0c8a8"/>
+    <rect x="-64" y="10" width="48" height="96" rx="8" fill="#6b4a3a"/>
+    <!-- Adult 2 -->
+    <circle cx="40" cy="-10" r="22" fill="#f0c8a8"/>
+    <rect x="16" y="10" width="48" height="96" rx="8" fill="#8a6b5a"/>
+    <!-- Child -->
+    <circle cx="0" cy="70" r="14" fill="#f0c8a8"/>
+  </g>
+
+  <!-- Foreground ground and debris -->
+  <g transform="translate(200,460)">
+    <ellipse cx="180" cy="90" rx="380" ry="40" fill="#E0C9B0" opacity="0.95" />
+    <rect x="80" y="30" width="20" height="10" fill="#8b6b52" />
+  </g>
+
+  <!-- Location text subtle -->
+  <text x="920" y="740" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6b6b6b">Location: Algeria (illustration)</text>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#A0E5AD"/>
+      <stop offset="100%" stop-color="#78F392"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="16" fill="#F6FFF6"/>
+  <g transform="translate(50,40)">
+    <rect x="0" y="0" width="280" height="220" rx="12" fill="url(#g)" opacity="0.18" />
+    <g transform="translate(30,20)">
+      <circle cx="60" cy="60" r="40" fill="#D9D9D9" />
+      <rect x="120" y="20" width="120" height="80" rx="8" fill="#fff" stroke="#e6e6e6"/>
+      <path d="M10 160 L80 90 L150 160 L220 80 L290 160" stroke="#a0e5ad" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="340" y="80" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#245943">Fundraiser Preview</text>
+    <text x="340" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b">A representative image for your fundraiser</text>
+  </g>
+</svg>

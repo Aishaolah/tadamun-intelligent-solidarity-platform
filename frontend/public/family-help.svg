@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#f8fffc"/>
+  <g transform="translate(80,80)">
+    <circle cx="70" cy="70" r="40" fill="#A0E5AD" />
+    <circle cx="160" cy="70" r="40" fill="#FFE7B6" />
+    <rect x="240" y="40" width="120" height="60" rx="12" fill="#CDE7FF" />
+    <text x="0" y="180" font-family="Poppins, Arial" font-size="40" fill="#1E3231">Family</text>
+    <text x="0" y="215" font-family="Poppins, Arial" font-size="18" fill="#556">Support for households</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#fff9f9"/>
+  <g transform="translate(80,70)">
+    <circle cx="80" cy="80" r="60" fill="#FFDDDF" />
+    <rect x="170" y="30" width="260" height="100" rx="14" fill="#CDE7FF" />
+    <text x="0" y="200" font-family="Poppins, Arial" font-size="40" fill="#1E3231">Medical</text>
+    <text x="0" y="245" font-family="Poppins, Arial" font-size="18" fill="#556">Patient care & supplies</text>
+  </g>
+</svg>

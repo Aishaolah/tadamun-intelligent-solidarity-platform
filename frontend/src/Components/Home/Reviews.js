@@ -39,16 +39,16 @@ function Reviews(){
 
     return (
 
-        <div className='w-3/4 m-auto'>
-        <div className='mt-20'>
+        <div className='w-[90%] md:w-3/4 m-auto'>
+        <div className='mt-16 md:mt-20'>
         <Slider {...settings}>
-        {review.map((d)=>(
-            <div className='w-3/4 m-auto text-center flex flex-col items-center gap-4 mb-20'>
-                <h1 className='text-7xl'>"</h1>
+        {review.map((d, index)=>(
+            <div key={index} className='w-full md:w-3/4 m-auto text-center flex flex-col items-center gap-3 md:gap-4 mb-10 md:mb-20 px-4 md:px-0'>
+                <h1 className='text-4xl md:text-7xl'>"</h1>
                 <div>
-                    <p>{d.msg}</p>
-                    <h3>{d.name}</h3>
-                    <h4>{d.from}</h4>
+                    <p className='text-sm md:text-base'>{d.msg}</p>
+                    <h3 className='text-base md:text-lg font-semibold mt-2'>{d.name}</h3>
+                    <h4 className='text-xs md:text-sm text-gray-600'>{d.from}</h4>
                 </div>
             </div>
         ))}
