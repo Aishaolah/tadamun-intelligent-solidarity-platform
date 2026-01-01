@@ -39,4 +39,4 @@ function EducationFond(){
     )
 }
 
-export default MedicalFond
+export default EducationFond

@@ -6,6 +6,8 @@ import Categories from "@/Components/Donate/Categories";
 import Featured from "@/Components/Donate/Featured";
 import More from "@/Components/Donate/More"
 import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer"
+
 
 export default function SignUpPage() {
     return <div>
@@ -14,8 +16,6 @@ export default function SignUpPage() {
         <Categories />
         <Featured />
         <More />
-        {/*<Mission />
-        <Story />
-        <Transparency />*/}
+        <Footer />
     </div>
 }

@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full h-auto md:h-[70px] flex justify-between items-center px-4 md:px-8 bg-[#000000] text-[#EFEBE3]/80 shadow-md z-50 border-b border-[#1E3231]/30 py-3 md:py-0">
+    <header className="fixed top-0 left-0 w-full h-auto md:h-17.5 flex justify-between items-center px-4 md:px-8 bg-[#000000] text-[#EFEBE3]/80 shadow-md z-50 border-b border-[#1E3231]/30 py-3 md:py-0">
       {/* LEFT SIDE */}
       <div className="flex items-center gap-4 md:gap-16">
         <Link href="/">
