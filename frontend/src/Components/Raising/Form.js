@@ -1,27 +1,30 @@
 "use client";
 import React, { useState } from "react";
 import { MdOutlineAddPhotoAlternate } from "react-icons/md";
+import Image from "next/image";
 
 
 export default function Form() {
     const [amount, setAmount] = useState(10000);
     // default to the downloaded Borgen Project image filename (already in public)
     // prefer a custom uploaded image if present; fall back to downloaded article image
-    const [previewSrc, setPreviewSrc] = useState('/Disability-and-Poverty-in-Algeria.jpg');
+    const [previewSrc, setPreviewSrc] = useState(null);
     // simplified preview: center & cover (no manual pan/zoom controls)
+    const [previewType, setPreviewType] = useState(null);
 
     const handleAmountChange = (value) => {
         const v = parseInt(value, 10) || 0;
         const snapped = Math.round(v / 10000) * 10000;
         setAmount(snapped);
     };
-
+    
     const handleFileChange = (e) => {
         const file = e.target.files && e.target.files[0];
-        if (file) {
-            const url = URL.createObjectURL(file);
-            setPreviewSrc(url);
-        }
+        if (!file) return;
+
+        const url = URL.createObjectURL(file);
+        setPreviewSrc(url);
+        setPreviewType(file.type.startsWith("video") ? "video" : "image");
     };
 
     return (
@@ -77,33 +80,49 @@ export default function Form() {
                         className="w-full mt-3"
                     />
                 </div>
-
             </div>
-            <p className="text-xl md:text-2xl font-bold mb-2">Put a photo or a video that describes the fundraiser</p>
-            <label className="mt-6 relative h-56 md:h-72 cursor-pointer rounded-2xl border-2 border-dashed border-gray-300 bg-gray-50 text-center hover:bg-gray-100 overflow-hidden">
-                <input
-                    type="file"
-                    accept="image/*,video/*"
-                    className="hidden"
-                    onChange={handleFileChange}
-                />
-                <div className="absolute inset-0 bg-gray-100">
-                    <div
-                        style={{
-                            backgroundImage: `url(${previewSrc})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                        }}
-                        className="w-full h-full bg-center bg-no-repeat"
-                    />
-                </div>
 
-                <div className="relative z-10 flex flex-col items-center justify-center h-full pointer-events-none">
-                    <MdOutlineAddPhotoAlternate className="h-6 w-6 text-white/90" />
-                    <p className="mt-2 text-xs md:text-sm font-medium text-white/90">Upload a photo or video</p>
+
+
+                {/* ---- UPLOAD SECTION ---- */}
+            <p className="text-xl md:text-2xl font-bold mb-4">
+            Put a photo or a video that describes the fundraiser
+            </p>
+
+            <label className="relative mt-6 flex items-center justify-center h-56 md:h-72 cursor-pointer rounded-2xl border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 overflow-hidden">
+
+            {/* Invisible but clickable input */}
+            <input
+                type="file"
+                accept="image/*,video/*"
+                className="absolute inset-0 opacity-0 cursor-pointer"
+                onChange={handleFileChange}
+            />
+
+            {/* Preview */}
+            {previewSrc ? (
+                previewType === "video" ? (
+                <video
+                    src={previewSrc}
+                    controls
+                    className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                />
+                ) : (
+                <div
+                    className="absolute inset-0 bg-center bg-cover rounded-2xl"
+                    style={{ backgroundImage: `url(${previewSrc})` }}
+                />
+                )
+            ) : (
+                <div className="flex flex-col items-center justify-center text-gray-400 z-10 pointer-events-none">
+                <MdOutlineAddPhotoAlternate className="h-10 w-10 mb-2" />
+                <p className="font-semibold">Click to upload photo or video</p>
+                <p className="text-sm">PNG, JPG, MP4 supported</p>
                 </div>
-            </label>
+            )}
+        </label>
+
+
 
             {/* Preview is center/cover by default; removed manual pan/zoom controls */}
 
