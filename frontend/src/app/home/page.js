@@ -1,7 +1,8 @@
 import Hero from "@/Components/Home/Hero";
 import Company from "@/Components/Home/company";
 import Reviews from "@/Components/Home/Reviews";
-import Navbar from "@/Components/Home/Navbar";
+import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 
 export default function HomePage() {
     return <div>
@@ -9,5 +10,6 @@ export default function HomePage() {
         <Hero />
         <Company />
         <Reviews />
+        <Footer />
     </div>
 }

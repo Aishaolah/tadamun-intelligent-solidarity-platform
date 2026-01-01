@@ -1,4 +1,4 @@
-import Navbar from "@/Components/Home/Navbar";
+import Navbar from "@/Components/Navbar";
 import Hero from "@/Components/Home/Hero";
 
 export default function Page() {

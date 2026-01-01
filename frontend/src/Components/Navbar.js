@@ -21,11 +21,11 @@ export default function Navbar() {
       <div className="flex items-center gap-4 md:gap-16">
         <Link href="/">
           <Image
-            src="/logo.svg"
+            src="/تضامن.svg"
             alt="Logo"
             width={50}
             height={50}
-            className="w-10 h-10 md:w-20 md:h-20 transition duration-300 hover:scale-105 mt-0 md:mt-2"
+            className="w-12 h-12 md:w-20 md:h-20 transition duration-300 hover:scale-105 mt-0 md:mt-2"
           />
         </Link>
 
