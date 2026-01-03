@@ -1,9 +1,9 @@
-import MedicalFond from "@/Components/Education/EducationFond";
-import DiscoverMed from "@/Components/Medical/DiscoverMed";
+import Navbar from "@/components/Navbar";
+import Page from "@/components/CreatePage/Page";
 
 export default function SignUpPage() {
     return <div>
-        <DiscoverMed />
-        <MedicalFond />
+        <Navbar />
+        <Page />
     </div>
 }
