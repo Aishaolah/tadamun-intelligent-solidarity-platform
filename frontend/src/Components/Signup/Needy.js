@@ -30,30 +30,42 @@ export default function NeedySignup() {
         setSuccess("");
 
         try {
-        const res = await fetch("http://localhost:3001/api/needy", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-        });
+            const res = await fetch("http://localhost:3001/api/needy", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            });
 
-        const data = await res.json();
+            const text = await res.text();
+            let data = {};
+            if (text) {
+                try {
+                    data = JSON.parse(text);
+                } catch (err) {
+                    data = { _raw: text };
+                }
+            }
 
-        if (!res.ok) {
-            setError(data.message || "Signup failed");
-            return;
-        }
+            if (!res.ok) {
+                setError(data.message || data._raw || `Signup failed (status ${res.status})`);
+                return;
+            }
 
-        setSuccess("Account created successfully 🎉");
-        setFormData({
-            name: "",
-            surname: "",
-            email: "",
-            phone: "",
-            address: "",
-            password: "",
-        });
+            setSuccess("Account created successfully 🎉");
+            setFormData({
+                name: "",
+                surname: "",
+                email: "",
+                phone: "",
+                address: "",
+                password: "",
+            });
         } catch (err) {
-        setError("Something went wrong");
+        if (err instanceof TypeError && /failed to fetch|network/i.test(err.message)) {
+            setError("Network error: cannot reach backend at http://localhost:3001. Is the backend running? Check server and CORS settings.");
+        } else {
+            setError(err.message || "Something went wrong");
+        }
         } finally {
         setLoading(false);
         }

@@ -23,20 +23,38 @@ const DonorSignup = () => {
         setMessage("Submitting...");
 
         try {
-        const res = await fetch("http://localhost:3001/api/doner", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
-        });
+            const res = await fetch("http://localhost:3001/api/doner", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            });
 
-        const data = await res.json();
+            // read text first (server may return HTML error pages)
+            const text = await res.text();
+            let data = {};
+            if (text) {
+                try {
+                    data = JSON.parse(text);
+                } catch (err) {
+                    // not JSON (likely HTML) — keep raw text
+                    data = { _raw: text };
+                }
+            }
 
-        if (!res.ok) throw new Error(data.message);
+            if (!res.ok) {
+                const msg = data.message || data._raw || `Request failed with status ${res.status}`;
+                throw new Error(msg);
+            }
 
-        setMessage("Signup successful! You can now login.");
-        setFormData({ name: "", surname: "", email: "", phone: "", password: "" });
+            setMessage("Signup successful! You can now login.");
+            setFormData({ name: "", surname: "", email: "", phone: "", password: "" });
         } catch (err) {
-        setMessage(err.message || "Something went wrong");
+        // Network errors (fetch failure) are TypeError in browsers
+        if (err instanceof TypeError && /failed to fetch|network/i.test(err.message)) {
+            setMessage("Network error: cannot reach backend at http://localhost:3001. Is the backend running? Check server and CORS settings.");
+        } else {
+            setMessage(err.message || "Something went wrong");
+        }
         }
     };
 
