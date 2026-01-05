@@ -1,9 +1,11 @@
+import ContactUs from "@/Components/ContactUs/ContactUs";
+import Footer from "@/Components/Footer";
 import Navbar from "@/components/Navbar";
-import Page from "@/components/CreatePage/Page";
 
 export default function SignUpPage() {
     return <div>
         <Navbar />
-        <Page />
+        <ContactUs />
+        <Footer />
     </div>
 }

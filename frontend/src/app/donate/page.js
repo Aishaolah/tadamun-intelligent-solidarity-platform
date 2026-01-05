@@ -7,7 +7,7 @@ import Featured from "@/Components/Test/Featured";
 
 export default function SignUpPage() {
     return (
-        <div className="mx-0 my-0">
+        <div className="mx-5 my-0">
             <Navbar />
             <Donate />
             <Categories />

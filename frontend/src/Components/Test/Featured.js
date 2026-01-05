@@ -33,7 +33,7 @@ export default function Featured() {
 
   if (loading) {
     return (
-      <div className="mt-16 md:mt-20 ml-4 md:ml-20 mr-4 md:mr-0 m-auto mb-10 md:mb-20">
+      <div className="mt-16 md:mt-20 ml-4 md:ml-20 mr-10 md:mr-0 m-auto mb-10 md:mb-20">
         <h1 className="text-xl md:text-2xl font-bold">Featured Fundraisers</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mt-6 md:mt-10">
           {[...Array(4)].map((_, i) => (

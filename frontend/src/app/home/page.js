@@ -9,7 +9,7 @@ export default function HomePage() {
         <Navbar />
         <Hero />
         <Company />
-        <Reviews />
+        <Reviews className="mb-10" />
         <Footer />
     </div>
 }

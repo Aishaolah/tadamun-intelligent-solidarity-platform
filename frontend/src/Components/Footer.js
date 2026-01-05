@@ -3,7 +3,7 @@ import { FaFacebookF, FaYoutube, FaXTwitter, FaInstagram } from "react-icons/fa6
 
 export default function Footer() {
     return (
-        <footer className="border-t bg-black text-sm text-white mt-20">
+        <footer className="border-t bg-black text-sm text-white">
         {/* Top section */}
         <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
             
