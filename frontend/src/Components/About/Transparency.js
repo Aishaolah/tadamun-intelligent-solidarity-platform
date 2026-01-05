@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const items = [
   {
@@ -41,29 +41,45 @@ const items = [
       </svg>
     )
   }
-]
+];
 
 function Transparency() {
   return (
-    <section className="text-center px-4 md:px-8 mt-12">
-      
-      {/* TITLE — CLEAR ABOVE */}
-      <h2 className="font-[Montserrat] font-bold text-3xl md:text-4xl lg:text-[40px] leading-[122%] text-[#1E3231] mb-16">
+    <div className="bg-gray-50">
+    <section className="text-center px-4 md:px-8 mb-20">
+      <h2 className="font-[Montserrat] font-bold text-3xl md:text-4xl lg:text-[40px] leading-[122%] text-[#1E3231] mb-20">
         Transparency & Ethics Statement
       </h2>
 
-      {/* CARDS — PUSHED DOWN */}
       <div className="flex justify-center flex-wrap gap-6 mt-12">
         {items.map((item, index) => (
-          <div key={index} className="relative w-full sm:w-[calc(50%-12px)] md:w-[241px]">
-
-            {/* ICON CIRCLE */}
-            <div className="absolute left-1/2 -translate-x-1/2 -top-[60px] w-[120px] h-[120px] rounded-full bg-[#1E3231] flex items-center justify-center shadow-md">
+          <div
+            key={index}
+            className="
+              relative w-full sm:w-[calc(50%-12px)] md:w-[241px]
+              transition-transform duration-300
+              hover:-translate-y-2
+            "
+          >
+            {/* Icon Circle */}
+            <div className="
+              absolute left-1/2 -translate-x-1/2 -top-[60px]
+              w-[120px] h-[120px] rounded-full bg-[#1E3231]
+              flex items-center justify-center
+              shadow-md
+              transition-transform duration-300
+              hover:scale-105
+            ">
               {item.icon}
             </div>
 
-            {/* CARD */}
-            <div className="bg-[#A0E5AD] h-[260px] rounded-[15px] shadow-md pt-20 px-4">
+            {/* Card */}
+            <div className="
+              bg-[#A0E5AD] h-[260px] rounded-[15px]
+              shadow-md pt-20 px-4
+              transition-shadow duration-300
+              hover:shadow-xl
+            ">
               <h3 className="font-bold text-lg text-[#1E3231] mb-3">
                 {item.title}
               </h3>
@@ -71,12 +87,12 @@ function Transparency() {
                 {item.text}
               </p>
             </div>
-
           </div>
         ))}
       </div>
     </section>
-  )
+    </div>
+  );
 }
 
-export default Transparency
+export default Transparency;

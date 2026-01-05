@@ -14,8 +14,8 @@ function Home() {
                 <span className="text-[#A0E5AD] block"> tadamun</span>
             </h1>
 
-            <p className="text-[#EFEBE3] text-base md:text-xl font-bold max-w-md">
-                Intelligent Solidarity Platform
+            <p className="text-[#EFEBE3] text-base md:text-xl max-w-md">
+                Your Intelligent Solidarity Platform that connects those in need with compassionate supporters.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -25,7 +25,7 @@ function Home() {
                 </button>
                 </Link>
 
-                <Link href="/signup">
+                <Link href="/signupneedy">
                 <button className="bg-[#EFEBE3] text-[#245943] px-5 py-2 rounded-lg hover:bg-[#D9D9D9] transition">
                     Needs help
                 </button>

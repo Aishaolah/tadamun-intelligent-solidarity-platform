@@ -47,13 +47,13 @@ export default function Navbar() {
       {/* RIGHT SIDE - Desktop Buttons */}
       <div className="hidden md:flex gap-3 lg:gap-5">
         <Link href="/raise/choose">
-          <button className="text-[#1E3231] bg-[#EFEBE3] border border-[#1E3231]/50 rounded-sm px-3 lg:px-5 py-2 text-sm hover:bg-[#A0E5AD] hover:border-transparent hover:shadow-lg transition duration-500">
+          <button className="text-[#1E3231] bg-[#EFEBE3] font-bold border border-[#1E3231]/50 rounded-sm px-3 lg:px-5 py-2 text-sm hover:bg-[#A0E5AD] hover:border-transparent hover:shadow-lg transition duration-500">
             Sign up
           </button>
         </Link>
 
         <Link href="/login">
-          <button className="text-white bg-[#1E3231] border border-[#1E3231] rounded-sm px-3 lg:px-5 py-2 text-sm hover:bg-[#245943] hover:shadow-lg transition duration-500">
+          <button className="text-white bg-[#1E3231] font-bold border border-[#1E3231] rounded-sm px-3 lg:px-5 py-2 text-sm hover:bg-[#245943] hover:shadow-lg transition duration-500">
             Log in
           </button>
         </Link>
