@@ -1,68 +1,46 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import PostCard from "./PostCard";
-import Link from "next/link";
 
-export default function CategoryFond({ category, title }) {
+export default function HousingFond() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    if (!category) {
-      setLoading(false);
-      setPosts([]);
-      return;
-    }
-
-    const fetchPosts = async () => {
+    const fetchHousingPosts = async () => {
       try {
         setLoading(true);
 
         const res = await fetch(
-          `http://localhost:3001/api/posts?category=${encodeURIComponent(
-            category
-          )}&accountStatus=active`
+          "http://localhost:3001/api/posts?category=housing"
         );
 
         if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
+          throw new Error(`HTTP error ${res.status}`);
         }
 
         const data = await res.json();
         setPosts(Array.isArray(data) ? data : []);
-      } catch (error) {
-        console.error("Failed to fetch posts:", error);
+      } catch (err) {
+        console.error("Error fetching emergency posts:", err);
         setPosts([]);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchPosts();
-  }, [category]);
-
-  /* 🚫 If category missing, don’t render the section at all */
-  if (!category) return null;
+    fetchHousingPosts();
+  }, []);
 
   const displayedPosts = showAll ? posts : posts.slice(0, 3);
 
   if (loading) {
     return (
       <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-16">
-        <h1 className="text-xl md:text-2xl font-bold">{title}</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-          {[...Array(3)].map((_, i) => (
-            <div
-              key={i}
-              className="rounded-2xl bg-gray-200 p-3 shadow-md animate-pulse"
-            >
-              <div className="h-40 bg-gray-300 rounded-xl" />
-              <div className="mt-3 h-4 bg-gray-300 rounded w-3/4" />
-              <div className="mt-2 h-3 bg-gray-300 rounded w-1/2" />
-            </div>
-          ))}
-        </div>
+        <h1 className="text-xl md:text-2xl font-bold">
+          Browse housing fundraisers
+        </h1>
       </div>
     );
   }
@@ -70,9 +48,11 @@ export default function CategoryFond({ category, title }) {
   if (posts.length === 0) {
     return (
       <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-16">
-        <h1 className="text-xl md:text-2xl font-bold">{title}</h1>
+        <h1 className="text-xl md:text-2xl font-bold">
+          Browse housing fundraisers
+        </h1>
         <p className="mt-6 text-gray-500 text-center">
-          No {category} fundraisers available yet.
+          No housing fundraisers available yet.
         </p>
       </div>
     );
@@ -81,7 +61,7 @@ export default function CategoryFond({ category, title }) {
   return (
     <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-16">
       <h1 className="text-xl md:text-2xl font-bold">
-        {title}
+        Browse housing fundraisers
         <span className="ml-2 text-sm text-gray-500">
           ({posts.length})
         </span>
@@ -89,9 +69,7 @@ export default function CategoryFond({ category, title }) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {displayedPosts.map((post) => (
-          <Link key={post._id} href={`/posts/${post.slug}`}>
-            <PostCard post={post} />
-          </Link>
+          <PostCard key={post._id} post={post} />
         ))}
       </div>
 
@@ -103,8 +81,6 @@ export default function CategoryFond({ category, title }) {
           {showAll ? "Show Less" : `See More (${posts.length - 3})`}
         </button>
       )}
-
-      <hr className="mt-10" />
     </div>
   );
 }

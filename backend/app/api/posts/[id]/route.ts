@@ -6,12 +6,12 @@ import { connectDB } from "../../../../lib/db";
 // ===== GET /api/posts/[id] =====
 export async function GET(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await context.params; // ✅ FIX
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
       return NextResponse.json(
@@ -42,12 +42,12 @@ export async function GET(
 // ===== PUT /api/posts/[id] =====
 export async function PUT(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await context.params; // ✅ FIX
     const body = await req.json();
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
@@ -86,12 +86,12 @@ export async function PUT(
 // ===== DELETE /api/posts/[id] =====
 export async function DELETE(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
   try {
     await connectDB();
 
-    const { id } = params;
+    const { id } = await context.params; // ✅ FIX
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
       return NextResponse.json(

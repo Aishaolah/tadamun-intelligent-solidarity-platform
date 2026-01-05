@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 export default function Featured(){
     return(
@@ -6,7 +6,7 @@ export default function Featured(){
         <h1 className="text-xl md:text-2xl font-bold">Featured Fundraisers</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mt-6 md:mt-10">
 
-            {/* Card 1 - Blood donation (uses red-crescent image) */}
+            {/* Card 1 - Blood donation (uses red-crescent image) ****
             <div className="w-full rounded-2xl bg-white p-3 shadow-md">
             <div className="relative overflow-hidden rounded-xl">
                 <img
@@ -31,7 +31,7 @@ export default function Featured(){
             </p>
             </div>
 
-            {/* Card 2 - Hunger / family aid (uses children.jpg) */}
+            {/* Card 2 - Hunger / family aid (uses children.jpg) *
             <div className="w-full rounded-2xl bg-white p-3 shadow-md">
             <div className="relative overflow-hidden rounded-xl">
                 <img
@@ -56,7 +56,7 @@ export default function Featured(){
             </p>
             </div>
 
-            {/* Card 3 - Medical support (uses patient.jpg) */}
+            {/* Card 3 - Medical support (uses patient.jpg) *
             <div className="w-full rounded-2xl bg-white p-3 shadow-md">
             <div className="relative overflow-hidden rounded-xl">
                 <img
@@ -81,7 +81,7 @@ export default function Featured(){
             </p>
             </div>
 
-            {/* Card 4 - Community / general support (uses image-tadamun1.jpg) */}
+            {/* Card 4 - Community / general support (uses image-tadamun1.jpg) *
             <div className="w-full rounded-2xl bg-white p-3 shadow-md">
             <div className="relative overflow-hidden rounded-xl">
                 <img
@@ -112,3 +112,4 @@ export default function Featured(){
     </div>
     )
 }
+*/

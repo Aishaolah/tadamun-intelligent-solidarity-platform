@@ -1,7 +1,7 @@
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer"
 import DiscoverBasic from "@/Components/Basic/DiscoverBasic";
-import BasicFond from "@/Components/Basic/BasicFond";
+import BasicFond from "@/Components/Test/BasicFond";
 
 
 export default function HomePage() {

@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import PostCard from '../PostCard';
+import PostCard from './PostCard';
 
 export default function Featured() {
   const [posts, setPosts] = useState([]);

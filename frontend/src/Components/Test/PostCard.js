@@ -1,51 +1,56 @@
 "use client";
+
 import React from "react";
-import Link from "next/link"; // import Link
+import Link from "next/link";
 
 export default function PostCard({ post }) {
   const title = post?.title || post?.fundraiserName || "Untitled";
   const image = post?.images?.[0] || null;
-  const location = post?.contact?.address || "";
+  const location = post?.contact?.address || "Algeria";
 
   const raised = post?.receivedAmount || 0;
   const goal = post?.targetAmount || 0;
-  const progress = goal > 0 ? Math.min((raised / goal) * 100, 100) : 0;
+  const currency = post?.currency || "DZD";
 
-  // Make sure this matches your dynamic route folder: /app/posts/[id]/page.js
+  const progress =
+    goal > 0 ? Math.min((raised / goal) * 100, 100) : 0;
+
   const postUrl = `/posts/${post?._id}`;
 
   return (
-    <Link href={postUrl}>
-      <article className="w-full cursor-pointer hover:shadow-lg transition-shadow">
-        {/* Image */}
-        <div className="relative overflow-hidden rounded-2xl">
+    <Link href={postUrl} className="block">
+      <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+        
+        {/* IMAGE */}
+        <div className="relative">
           {image ? (
             <img
               src={image}
               alt={title}
-              className="h-48 w-full object-cover"
+              className="h-52 w-full object-cover"
             />
           ) : (
-            <div className="h-48 w-full bg-gray-200 flex items-center justify-center">
+            <div className="h-52 w-full bg-gray-200 flex items-center justify-center text-sm text-gray-500">
               No Image
             </div>
           )}
 
+          {/* Location pill */}
           {location && (
-            <span className="absolute bottom-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded-md">
+            <span className="absolute bottom-3 left-3 bg-black/70 text-white text-xs px-3 py-1 rounded-full">
               {location}
             </span>
           )}
         </div>
 
-        {/* Content */}
-        <div className="mt-3">
-          <h3 className="font-semibold text-sm leading-snug line-clamp-2">
+        {/* CONTENT */}
+        <div className="p-4">
+          <h3 className="font-semibold text-base leading-snug line-clamp-2">
             {title}
           </h3>
 
           {/* Progress bar */}
-          <div className="mt-3 h-2 w-full bg-gray-200 rounded-full overflow-hidden">
+          <div className="mt-4 h-2 w-full bg-gray-200 rounded-full overflow-hidden">
             <div
               className="h-full bg-green-500 rounded-full transition-all"
               style={{ width: `${progress}%` }}
@@ -53,8 +58,8 @@ export default function PostCard({ post }) {
           </div>
 
           {/* Raised text */}
-          <p className="mt-2 text-sm font-medium text-gray-700">
-            {raised.toLocaleString()} {post?.currency || "DZD"} raised
+          <p className="mt-3 text-sm text-gray-700 font-medium">
+            {raised.toLocaleString()} {currency} raised
           </p>
         </div>
       </article>
