@@ -64,13 +64,16 @@ export default function CharitySignup() {
     };
 
     return (
-        <div className="mt-20 min-h-screen flex items-center justify-center px-4">
-        <div className="max-w-md w-full bg-[#f2f2f1] rounded-2xl border border-black p-8">
-            <h2 className="text-2xl text-[#245943] font-bold text-center mb-6">
-            Sign Up
-            </h2>
+        <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+        <div className="max-w-md w-full bg-white rounded-2xl shadow-lg p-8">
+            <h2 className="text-2xl font-bold text-center mb-6">Charity Signup</h2>
 
             <form className="space-y-4" onSubmit={handleSubmit}>
+            <div className="flex flex-row gap-4">
+                <div className="flex-1">
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="name">
+                    Name
+                </label>
             <input
                 name="name"
                 placeholder="Charity Name"
@@ -79,7 +82,12 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+                </div>
 
+            <div className="flex-1">
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="surname">
+                    Username
+                </label>
             <input
                 name="username"
                 placeholder="Username"
@@ -88,7 +96,13 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+            </div>
+            </div>
 
+            <div>
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="email">
+                Email
+                </label>
             <input
                 type="email"
                 name="email"
@@ -98,7 +112,12 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+            </div>
 
+            <div>
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="phone">
+                Phone Number
+                </label>
             <input
                 name="registrationNumber"
                 placeholder="Registration Number"
@@ -107,7 +126,12 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+            </div>
 
+            <div>
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="password">
+                Location
+                </label>
             <input
                 name="location"
                 placeholder="Location"
@@ -116,7 +140,12 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+            </div>
 
+            <div>
+                <label className="block text-gray-700 font-medium mb-1" htmlFor="password">
+                Password
+                </label>
             <input
                 type="password"
                 name="password"
@@ -126,15 +155,22 @@ export default function CharitySignup() {
                 className="w-full px-4 py-2 border rounded-lg"
                 required
             />
+            </div>
 
             <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg"
+                className="w-full py-2 bg-[#468B6E] hover:bg-[#245943] text-white font-semibold rounded-lg"
             >
                 {loading ? "Creating..." : "Sign Up"}
             </button>
             </form>
+            <p className="text-sm text-gray-500 text-center mt-4">
+            Already have an account?{" "}
+            <a href="/login" className="text-[#245943] hover:underline">
+                Login
+            </a>
+            </p>
         </div>
         </div>
     );

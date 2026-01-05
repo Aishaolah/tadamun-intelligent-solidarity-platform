@@ -23,7 +23,7 @@ function WhoDonor() {
                 <div className='p-6 bg-[#1E3231]/75 rounded-lg w-full sm:w-64 h-72 flex flex-col items-center justify-center'>
                     <MdGroups className='bg-[#D9D9D9] rounded-full mb-4 h-30 w-30 p-5' />
                     <h2 className='text-[#d9d9d9] font-bold text-sm md:text-base mb-4 text-center'>Organization</h2>
-                    <Link href="/signup" className="w-full px-4">
+                    <Link href="/signupcharity" className="w-full px-4">
                         <button className="text-[#1E3231]/75 bg-[#A0E5AD] rounded-lg px-4 py-2 text-sm hover:bg-[#78F392] hover:border-transparent hover:shadow-lg transition duration-300 hover:scale-105 w-full">
                             Next
                         </button>

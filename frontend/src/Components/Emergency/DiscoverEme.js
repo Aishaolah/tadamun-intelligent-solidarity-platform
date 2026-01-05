@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link";
 
 function DiscoverEme(){
     return (
@@ -8,9 +9,9 @@ function DiscoverEme(){
                     <h1 className='text-3xl md:text-5xl lg:text-6xl font-bold text-[#1E3231]'>Discover Emergency Situation
                     <span className='block'>fundraisers</span>on Tadamun</h1>
                     <p className='text-[#1E3231]/75 text-base md:text-xl'>Help others by donating to their fundraiser, or start one for someone you care about.</p>
-                    <div>
+                    <Link href="/raise">
                         <button className='text-[#ffffff] text-bold bg-[#1E3231] border border-[#1E3231] rounded-lg px-4 md:px-5 py-2 text-sm md:text-base hover:bg-[#245943] hover:shadow-lg hover:border-transparent transition duration-500'>Start a fundraiser</button>
-                    </div>
+                    </Link>
                 </div>
                 <div className='w-full md:w-auto'>
                     <img

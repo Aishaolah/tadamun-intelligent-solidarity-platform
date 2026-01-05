@@ -2,18 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cloudinary": "^2.8.0",
-    "dotenv": "^16.3.1",
-    "mongoose": "^7.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "mongoose": "^7.8.8",
     "next": "^14.2.35",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "19.2.7",

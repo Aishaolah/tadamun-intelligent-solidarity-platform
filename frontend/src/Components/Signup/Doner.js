@@ -125,7 +125,7 @@ const DonorSignup = () => {
             {/* Submit Button */}
             <button
                 type="submit"
-                className="w-full py-2 mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition"
+                className="w-full py-2 mt-4 bg-[#468B6E] hover:bg-[#245943] text-white font-semibold rounded-lg transition"
             >
                 Sign Up
             </button>
@@ -135,7 +135,7 @@ const DonorSignup = () => {
 
             <p className="text-sm text-gray-500 text-center mt-4">
             Already have an account?{" "}
-            <a href="/login" className="text-green-500 hover:underline">
+            <a href="/login" className="text-[#245943] hover:underline">
                 Login
             </a>
             </p>
