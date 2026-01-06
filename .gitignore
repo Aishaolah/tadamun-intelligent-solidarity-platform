@@ -205,6 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+<<<<<<< HEAD
 
 # ======================
 # Node.js / Next.js
@@ -215,11 +216,18 @@ out/
 dist/
 
 # Logs
+=======
+# =========================
+# Node / React / Next.js
+# =========================
+node_modules/
+>>>>>>> 5a24bc6 (Dashboard)
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+<<<<<<< HEAD
 # Lock files (choose your policy)
 # package-lock.json   # ❌ uncomment ONLY if you don't want to commit it
 # yarn.lock
@@ -232,3 +240,19 @@ pnpm-debug.log*
 
 # Turborepo
 .turbo/
+=======
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+>>>>>>> 5a24bc6 (Dashboard)
